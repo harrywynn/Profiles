@@ -1,0 +1,2013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002E27CD887A164EE820397EF0F19DFD /* XLFormBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFA52167299128D7015178F8DC090FA /* XLFormBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00559B74816BD394E91A64FD39EAF9ED /* RandomBytesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F882232C464636042D8A231F64ACFB /* RandomBytesGenerator.swift */; };
+		0226350071C351EC3AECDE9C53851E67 /* XLFormTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EBD319B514AEDADBE0816F6B90E242 /* XLFormTextView.m */; };
+		02DBD970DF9407DB6E241D8513C52176 /* RandomToValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3657944E0C38C4B81E937AF2BB766 /* RandomToValue.swift */; };
+		0433CB50B706B282DD1E1AE6DC18C26D /* Shuffleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F6BB3BBCC10A12D46CE1CA00C013E /* Shuffleable.swift */; };
+		07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = EF65E6CD0F66AB8F53FD588A5CEC44EC /* GTMSessionFetcherLogging.m */; };
+		0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C61528C001DFA7531ED9A2AA6852D4BB /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076CC8B675E95B1DF9B347EC2E4E8A55 /* RandomKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E6A6416D3E978A8EBDEDCE483AF5C /* RandomKit-dummy.m */; };
+		0A04789E76033AB7ABA1CA75B82D82D8 /* XLFormRowNavigationAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 221C1066517DC1985618E3929F338CD1 /* XLFormRowNavigationAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA495E2845069EBABF86231BFC8D080 /* XLFormPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A02ADD5822BDC1F4BF8E32317696394 /* XLFormPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC4A5DA972299C58CF33C3086288059 /* XLFormStepCounterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8310EF66DC348DA388370F18B6DAF268 /* XLFormStepCounterCell.m */; };
+		10828FF37D5E01A73CDB1F556F83C615 /* XLFormOptionsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C00503563745252099E632CD5D72ABE6 /* XLFormOptionsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = DA209CCBFB23C4F043B74F9AA2F670DB /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13A068ED44E834F2410281B330620937 /* XLFormSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6760C576630054EC7B77483AD495FDCA /* XLFormSwitchCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13DF4D98DB9F39A3A600DE13E9B449C1 /* CGSize+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B4C7DB665185246E0600FD9C2908A /* CGSize+RandomKit.swift */; };
+		14A1C9156506878AF8F5D0EB7600A2F2 /* XLForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC687B2C46DD0BF74E0BE336D404918 /* XLForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17453913468FD014582C83B78626DD4C /* XLFormSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0817E421371BC33A570FDD01A59847 /* XLFormSliderCell.m */; };
+		17D2B1A0141BDCE4CCBD035B0C67BD01 /* Typecasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E741631C6F377B13D361571F644934 /* Typecasting.swift */; };
+		1915707A3047A5005761C7FF87F646A9 /* ShiftOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3378E372382F2291339F8B7D17FB0F /* ShiftOperations.swift */; };
+		1AD51D6B4DF85BB565AD4BD8C23600EA /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4874F6262A9E87CE17C29E95C5831B /* Random.swift */; };
+		1C32E19FB611C8EE8C30C95BFDEF4EC9 /* XLFormDateCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F94C957057B4E19FB48F677FD6567A /* XLFormDateCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = D43F4C35DA3C5DD7B79FDF01DF2E9F5F /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9B999DFAA1052294448B64C77434B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81BE8F2258E73E119616F7EC1B1486A /* Foundation.framework */; };
+		1FB35ED884C487026FD04CD9F8762D63 /* XLForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EB24CFC7B0389BF0691AA7170E1DBB /* XLForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F2E68B8B67F565506CD4C941DA6F88 /* RandomEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652962F44DD046DC3912E307A89C19A /* RandomEnum.swift */; };
+		2197CB7CD941B731F38162CA802F5B65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81BE8F2258E73E119616F7EC1B1486A /* Foundation.framework */; };
+		21AF78108F9D6781CBB2EE042DAF4668 /* XLFormSegmentedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E60FF53892345C7C4D57684B963C2D53 /* XLFormSegmentedCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A43C827331A31AF2A24B8DC6F96001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81BE8F2258E73E119616F7EC1B1486A /* Foundation.framework */; };
+		25EB711BCB73DC271324AEC45016C87C /* CGFloat+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A7909DC7A7E2B1156F91D4F6CAA45 /* CGFloat+RandomKit.swift */; };
+		272F6BFCFECD7CA1DBCB26C0BDBCAA41 /* XLFormRowNavigationAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E64D1D58BA7ABFC8C3DC7AAF2A788 /* XLFormRowNavigationAccessoryView.m */; };
+		27CE0BB90FF478FB65811E921223875C /* Integer+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CA9A121DA568220DABF4FE2A343AD8 /* Integer+RandomKit.swift */; };
+		292A6C19EDA389E214FC1560B479A9B7 /* XLFormTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 53894C25E754B8EE0700DC811F8649DA /* XLFormTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D27FE90724E503F68C7C9A66C1FAE0 /* FloatingPoint+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D136AA115126C9000667871A41144 /* FloatingPoint+RandomKit.swift */; };
+		29EAC1E6A75A025A88777B211904E7D9 /* StackArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD599444134403E4CA3E1E1591B3656 /* StackArray.swift */; };
+		2B645C8BF8718687F93EDB69D0E08768 /* SeedableRandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215BB3C4803AD3423647B3534D13EFA /* SeedableRandomGenerator.swift */; };
+		2DFA389A528C60D4DB06A10976BD0B67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81BE8F2258E73E119616F7EC1B1486A /* Foundation.framework */; };
+		2EE8294E262EBE82516398273DCED6AF /* RandomWithMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E4CF52C39AB28373C893CD6EE5D57 /* RandomWithMin.swift */; };
+		2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0FBD6FC92D1D9CA61CB7C39C793D37 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2FD23E0D2271826F6555A331A71277D0 /* XLForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF00B81ECBA745B6323DB4F16BEE372B /* XLForm-dummy.m */; };
+		32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CA9AFAFF00F6E5C63D1FEB14BACB00 /* GoogleToolboxForMac-dummy.m */; };
+		3384B1540CB9F87FE3F0C3718021E257 /* XLFormRowDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6075B1997ED799EF034EBD6545AFDFB7 /* XLFormRowDescriptor.m */; };
+		38F3E69E1C827864FB2B9644BC5730EB /* Xoroshiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108097B33D90B49E27138D158266615 /* Xoroshiro.swift */; };
+		3A9C40C924701644636C85AD12CCF695 /* Sequence+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46936692A0FD2BD40F0007D759F9297E /* Sequence+RandomKit.swift */; };
+		3F0EAB179CB118438737D8A405D18D90 /* NSExpression+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D8D3AB67126EBF6580DDF29F9797B7 /* NSExpression+XLFormAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD542206C5CF788E703A28E4C977BE0 /* NSExpression+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BBA184EEA114ED574A16EC320923D /* NSExpression+XLFormAdditions.m */; };
+		437676F695A7634FDC44E0882FB08314 /* UniqueShuffleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722FB9531FD4C820F30A21536897EE8 /* UniqueShuffleable.swift */; };
+		44549A686810461B11DF34899E159804 /* RandomWithMaxWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4582D82D170A78088075735414A377 /* RandomWithMaxWidth.swift */; };
+		4772F3CC0865B2C258E630EC4E1EEECE /* XLFormSectionDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2206BBC47F95ACD89D97ADBEB2C4E7 /* XLFormSectionDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48874879AA71B2085837E1A04C32F580 /* Trivial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB40C437AFF1107CCA98FB12594C95 /* Trivial.swift */; };
+		49DC98F0A423F300DDB41380F9D84E53 /* RandomRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB955303E49FBE1202CE5291B80838D /* RandomRawRepresentable.swift */; };
+		4B3E6A559FFECD690A9BEE82398F9FAD /* XLFormRowDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C812AE515CB13995F037A669047A2A0 /* XLFormRowDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7202F38B0DC6011AC4A9A599CF9BA0 /* XLFormValidationStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 214A66A1C74E9F3C71F1F92B8331EC41 /* XLFormValidationStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C873D4E232C648B39DF257999064D75 /* XLFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E13328A063EEFEEBD1DD5D172B4162 /* XLFormValidator.m */; };
+		4E392D98DFDC0ACA1FBF0EDFC42A2802 /* XLFormRegexValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9005085D058EEF911B573447303E01AF /* XLFormRegexValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE6F84A7B0840407D4E4B0552C92774 /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FC2AFA21424277F8C2F760A79D2C040 /* XLFormValidationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB37742C039C678202894E9D30DB22 /* XLFormValidationStatus.m */; };
+		4FF5739FF6F1C479FADC63768C5D7BAB /* XLFormRightImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8381ACDA1912F7106C921BAA71327E0D /* XLFormRightImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507A055C99AA51ED610C339842D2EB53 /* CGRect+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C935464E76EEBC3E90E36E88AD3DB /* CGRect+RandomKit.swift */; };
+		5080A5549F77B24F2E93A4E02B21E7C3 /* Decimal+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7190E798579608C1BE1B15A5C3ECE9 /* Decimal+RandomKit.swift */; };
+		50B45C9E759CB8CE4958397A786E05A1 /* NSPredicate+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E3D6FF8F8A89F959190F235AE831B0 /* NSPredicate+XLFormAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550E488102476FBD3DB8CF9B8C172A3C /* XorshiftStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BB796A63A16319C34CC448F6DFFD8 /* XorshiftStar.swift */; };
+		56529C8BA6DCA10ECFB81D811CC71907 /* UnicodeScalar+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788381C6E5DFBCA98371D7CED923D99 /* UnicodeScalar+RandomKit.swift */; };
+		57179F1C06DD52920400BA3E84C42BE1 /* NSPredicate+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8049325ABF55FA546701F514E45FEA16 /* NSPredicate+XLFormAdditions.m */; };
+		5944BB5D80546C533BAD421592D1B0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81BE8F2258E73E119616F7EC1B1486A /* Foundation.framework */; };
+		59D01A9A570645801161510F6B8F63CD /* XLFormInlineSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B628CF0F564996646794BD0C892693 /* XLFormInlineSelectorCell.m */; };
+		5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE540B60956A08098F1D2BA10797CE3 /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C4C26888180B61B68303375768EF2B6 /* Dictionary+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396EEBFCE003CA59A67234C6020C5AAC /* Dictionary+RandomKit.swift */; };
+		5CC4C800B120B1C036875C38B8F1A9B5 /* XLFormButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE862051C2D71DF317665103AB5FCBE /* XLFormButtonCell.m */; };
+		5D0594D9E06E40F4F2E8F5B2AB445E04 /* XLFormSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBD9137286CCCC9289D8B86E0AFE35 /* XLFormSegmentedCell.m */; };
+		5DE661E66A9A3DFE5852BBFE4DAC8387 /* XLFormValidatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4821B64864DBC3157D33646EEF1A2145 /* XLFormValidatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1EB0106F6B8E90746C500522C983B6 /* GTMSessionFetcher.m */; };
+		6518952B7F2142E3132C48A5D6C970F8 /* DeviceRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909F20C2F81F17800E5DE4F59D1AF386 /* DeviceRandom.swift */; };
+		65B56BD3DBC9B81BB008219D0BA735A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6BDF1842D3F79FC1719D54915508D /* Security.framework */; };
+		65C95A06FCC548E80F4A75EA4CA00497 /* XLFormOptionsObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B8DD6E8CC078E200AD0CC41F77B01572 /* XLFormOptionsObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF277064BF63DEBD5302F646C8F2E6 /* XLFormRightDetailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0CE740A78639DE9D76BD3F26D04270 /* XLFormRightDetailCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67FB07333B68221426FFD4927711C0A7 /* UIView+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C16CE1ACA77B183901B6DA12DCF99965 /* UIView+XLFormAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6898B1B8FA0F922098117B373C2130CF /* XLFormDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3252B27B59535B8BD91BEA09205EE703 /* XLFormDatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6916122732AD73755E2B5C39881A86CC /* RandomTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A929C14137E323F4A7CA98AC5311 /* RandomTuple.swift */; };
+		6C3A622EF09D42E11F22B26B92328EA8 /* Array+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA44470B90774874DFF328F85749B1E /* Array+RandomKit.swift */; };
+		6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE906EE881A66ECC2F5EBE739334A56A /* GTMSessionFetcher-dummy.m */; };
+		6FAF783E60D2CADF6E04F4DBCAFF5923 /* XLForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B6273CF5E99DE5F432CA247795AEFC /* XLForm.m */; };
+		6FC0F7E70B1846F693FE0978F5DEDFCF /* String+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1043293FACD68267D41F5B12E0DB78 /* String+RandomKit.swift */; };
+		7002FEE9276F6D6CCE79E9FD753D42CF /* Range+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AC213C5649DD3011F461664F79DC96 /* Range+RandomKit.swift */; };
+		7062C12643B403CCDB1A2D697D769A19 /* NSArray+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B340B1BADD921BEDAD01EC61B1AB5F /* NSArray+XLFormAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717487755CB7BC6788ECA9E6E6CDE766 /* NSArray+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 347592B9B0D5AF90AEFC2D22B3CE8BD4 /* NSArray+XLFormAdditions.m */; };
+		75A94BB0294DF253A78459B945F1E856 /* Collection+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F83898C6116060CEA137820BA16100 /* Collection+RandomKit.swift */; };
+		76ADB83D4C5A83BB61B5333487E9110F /* XLFormSelectorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2302836C8167C269E2C44233F770E421 /* XLFormSelectorCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789CA66BD195E56742F0B64C415917F3 /* XLFormImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8041F5FAE59F2FB1B96E2FC3DAC08C24 /* XLFormImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8054EBCA3AB0C619D1AA8F3AAEDD12E1 /* RandomWithMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E99A22230523D505C8F123B635620 /* RandomWithMax.swift */; };
+		80E449214B8064A74E89F3B4EA896FC0 /* CGPoint+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DE84CBDA8E1787E42D66E60A7A153 /* CGPoint+RandomKit.swift */; };
+		8283DA26E4B049EB11D13CC9A588775A /* XLFormTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F1F0988FEE3024AEC777933C8ED71E /* XLFormTextViewCell.m */; };
+		83D2E8ADEA89D2A72E7B7FAA9506D09E /* XLFormDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C611E27170CD28599E43879E0F63F07 /* XLFormDescriptor.m */; };
+		841AE32464F4424EEA7E1456D3DB7D7F /* Xorshift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4BC650DEE1A8F94150C03D3F2E8F8 /* Xorshift.swift */; };
+		8429C28120C685ECF409CFD69B34E81C /* XLFormTextViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D702C4095B5706D24EF71A14B7546570 /* XLFormTextViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877D07781B3582FC87FB71FE85A260FC /* XLFormStepCounterCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C450EE05AC9AAF33237578480F652DD5 /* XLFormStepCounterCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F12108D623EC3B8B6440630D2FF87983 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A11DC6CC7A56909B35F4D76CC3EAD4E /* XLFormDescriptorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F96E62EC4231E87165878E8F44DD4E7 /* XLFormDescriptorCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A222948B037C1E750C9B34298EBE9A8 /* UnsafeRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB9155A9606C4740F6017542720FCA4 /* UnsafeRandom.swift */; };
+		8B7EB12B8C824140703D02F4A2F0E7F9 /* XLFormRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C80DD5E90D4E214173E8C4990C9690DC /* XLFormRegexValidator.m */; };
+		8BEB40901FA563A37FF981C06CEDB73A /* XLFormDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DB2209C0DE12AF93D1C5E128187B4B /* XLFormDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DF7A100DFEAF9A28686EAE814B9147 /* NSObject+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5A36325C9C1DBF39A510AFBC86868 /* NSObject+XLFormAdditions.m */; };
+		95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA8BB6E3B8E14F4BF7E16117A3F001 /* GTMSessionFetcherService.m */; };
+		967551D370060AE0F4BC86BA2FE66E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81BE8F2258E73E119616F7EC1B1486A /* Foundation.framework */; };
+		974E50BAA932F3ADB737EB8C28B5C1C6 /* Pods-Profiles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D66092DB664CD1C1021D9E0B416BDF /* Pods-Profiles-dummy.m */; };
+		977F026C40E3921A9D7B444F5E545BA5 /* Date+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09BC91D90CBE74EC1948A6A9E0B109 /* Date+RandomKit.swift */; };
+		981E031C60D992BA2BA3871DCFB2558F /* RandomWithExactWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCED03827A6E599BF7ED163C1FC8D26 /* RandomWithExactWidth.swift */; };
+		9B9808A684D91C50EA8446EBED238074 /* XLFormSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304B60622FE31DE8C369D90B2E9CEA5 /* XLFormSwitchCell.m */; };
+		9FC2A7108AE5F492FFB35EB529FAF5DA /* Character+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D28405B39F7F8524FC422A6A2C8E7F /* Character+RandomKit.swift */; };
+		A015A18FD20ADE01BC156C429DDB8831 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00226C7E254C8709C0B9983CB47F7 /* CoreGraphics.framework */; };
+		A067321CB0ACF7D5686E6A37AF2B4AD2 /* Pods-Profiles-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E896D9399988259053E75DCB7819EBD2 /* Pods-Profiles-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0D683BC91C06A8328857F2235C547D3 /* ReseedingRandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1937ED531AFFAC0F3E14514FDCE253 /* ReseedingRandomGenerator.swift */; };
+		A3A54332EF7DB2E02B112D1D90BE298E /* NSNumber+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE35A195E5171FC7F7D3C619EB6E03 /* NSNumber+RandomKit.swift */; };
+		A456D487C427117428D6650A56181E76 /* Color+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E515F53A3178A09CE468B0353030C9B /* Color+RandomKit.swift */; };
+		A776D74C2422B87AC36884B4DE0DD27E /* XLFormDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B1DEC0BF40481C90CCB361A7AB4586 /* XLFormDatePickerCell.m */; };
+		A8CF895656C076C100E42A1588F58AAA /* XLFormTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7249C16F9CFCB3350D992CCB7FDBEB6C /* XLFormTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8E36A1C0EB66F7F4B540ECE0D4C366B /* XLFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037FC6340DCB08469D9E7052FB76B094 /* XLFormViewController.m */; };
+		AD10B8B330371AF8E045CF41ABECA50C /* XLFormRowDescriptorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 269689971FFD987DFF4BC85668212E76 /* XLFormRowDescriptorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADECD9E0E86F1169155AA77CCC54929D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CFDE3DE54CA027A2591AD3468F079E /* UIKit.framework */; };
+		AF0E98D8D34F0DC27D0A5B3B2BAB7221 /* XLFormCheckCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 275DCF4F4667EB0B166DBAC6A5DC2BDE /* XLFormCheckCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF5AED1EF444DC574E83614EF4343391 /* XLFormOptionsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 461EF8CBDA7E123A6166AEB689FD59AF /* XLFormOptionsObject.m */; };
+		B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA2075852EE173A0BE35123A904FBAD /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0CA55D3CF6F98AB49FA6DC3AAA7DF80 /* RandomWithinRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B7006803E60B9992C08B391F3D014 /* RandomWithinRange.swift */; };
+		B141C3D1BCB18F3BE53DCD404D1D0D08 /* ShiftOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F4B4376F807DB5E69DBA84A71618E3 /* ShiftOperations.framework */; };
+		B1CA46DA95ADB17DA26208E724B80EB1 /* XLFormSectionDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 919860CEE19F50CCFA2A08A0C1BC87C1 /* XLFormSectionDescriptor.m */; };
+		B3D6E9C5B9A10A447BF0630AA392F749 /* ARC4Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BBE84BD4ABF9B60D14D4795EA40125 /* ARC4Random.swift */; };
+		B935C5BBF49D0B47BD7E147B4E860C75 /* XLFormInlineSelectorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AC97FFA0F849542A4C2262A6B9CEDE /* XLFormInlineSelectorCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 815B8E693E1E77BAA5342D7904B32AE1 /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9CD12F3971D57F2CE00A12B9BFA1C7C /* NSString+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D78E94E2852B236957BD73B3D54FB9C0 /* NSString+XLFormAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD20745628C49A4F424EECA805C37F5E /* XLFormCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7616EFEF1ED7957D03047EF376ECA1C /* XLFormCheckCell.m */; };
+		C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EE889DB606EB3F3BD21CBC77E0762F /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C363811B07803E93047AC17C6D0A1D /* XLFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61592EFF92CD2A8B8A25463FC47E0BEF /* XLFormBaseCell.m */; };
+		C4EFD659021B3DD959AF258AC469D275 /* XLFormImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1BBC7CDF7B2D0296E3AF23E2F0BC9 /* XLFormImageCell.m */; };
+		C777E34432773FC4747DC9AE5A00DE5D /* XLFormInlineRowDescriptorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF9D0D66C7962CE0F8EA1F479149F0D /* XLFormInlineRowDescriptorCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97B36163B6A1D38495858409B19CC37 /* XLFormSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E32C68459EA9794506847BF5618C9CF /* XLFormSelectorCell.m */; };
+		CBBC009BA56D2DAA0FDAFF32C86A011F /* RandomWithinClosedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08861BA546AFA8FBC2F0B6EAF9269E /* RandomWithinClosedRange.swift */; };
+		D1B153597152D25F585B8DB5DF7434E4 /* XLFormDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA998596FD10D106887419C6223FFAB /* XLFormDateCell.m */; };
+		D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 181A71C9814E63E089FB7FA97466AB5B /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1F0CCFF43FA682667007FDBE1260E3 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B2C8DA986F8296BB825AE02551613B /* XLFormTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E94878DDAE77DCF14FC6EC3AA6B654B /* XLFormTextFieldCell.m */; };
+		D562253716A1274F44485EFA4F751D46 /* XLFormRightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A61C0178B1ADE457F86AB7C6C850DA20 /* XLFormRightImageButton.m */; };
+		D900C14F5AA5219E43AC726545B45A10 /* RandomThroughValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B3204EEE288F159C73E803ED84476 /* RandomThroughValue.swift */; };
+		DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 79217991AFC241779049FD8DC2AB9EB5 /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC836C812B67AAD0FCC464F1AB0648F3 /* ShiftOperations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA03A64EB45772F67186622D8EDB017 /* ShiftOperations-dummy.m */; };
+		DC95C5485CA7D3DDD8DACA64D70019D7 /* NSString+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDAA22C90D940DA5F2E4BE1F8B1A117 /* NSString+XLFormAdditions.m */; };
+		DDB06F0A87CC6C56BE580422226C476C /* XLFormLeftRightSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4191A008B1E4F8F7BD2902A48BE97 /* XLFormLeftRightSelectorCell.m */; };
+		DE8E28A50C94449C5CD363D3788B8EDE /* XLFormRightDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9496963A22511C02933BD04B34E47D /* XLFormRightDetailCell.m */; };
+		DF651C7266CEBB24A16DF764B3D9FA38 /* XLForm.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D0BC046255572E26E9C4F1A88D1C565 /* XLForm.bundle */; };
+		DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBD8718C47965587BEABDD7860C6B90 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05F6523BB90A875813657148BACA753 /* RandomWithAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552529FA93FED43B09E070882E438C8 /* RandomWithAll.swift */; };
+		E11B51ABB9237CA738B1444D68DCE988 /* XLFormOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480B84C11D048B392E3A75AEBA21BF45 /* XLFormOptionsViewController.m */; };
+		E34E28C17E8B911982810F2AAD696D6D /* NSArray+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC8FDA8DA46E7BC24481146D53E3CF0 /* NSArray+RandomKit.swift */; };
+		E779B74C9AC78FBE9CC150B0F9198724 /* MersenneTwister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708894118165321A3B25D00668128288 /* MersenneTwister.swift */; };
+		E77AEFF5C447BDBFA82B808041220DCC /* XLFormButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 046E6C7CE32D4FFC91BF01493B9DE18F /* XLFormButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 529F39E3D31E169485EC62950CFEFCB3 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E864DCC48E9F4228E5730C753E9DE84D /* XLFormSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 088DDC38BCA50D5964B41CC05C6DBC98 /* XLFormSliderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E88A880A663BA2166F9E3E4DC0829BCB /* XLFormDescriptorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E7F1C7B65FC7CFCB88737B350BA249 /* XLFormDescriptorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E88C98A22F7AE5E3A83B573B33E2B3B1 /* XLFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF245D150EE4FCE8514FCF41F33E477 /* XLFormValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E96302C7C59AE88B559495EB40AAB228 /* XLFormLeftRightSelectorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0A68AA3843ECB430A3EB713D2600C7 /* XLFormLeftRightSelectorCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9AAEBF9C5C9DF7E0CFB97065244FB54 /* RandomKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84474BCD9F4866B68258B937C3535F38 /* RandomKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB20120FAF2284B8230A090FA307F202 /* Strideable+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47FC686822ED8C4BF0342F006E69F23 /* Strideable+RandomKit.swift */; };
+		EF43988836852368F0F4AC2BB54264E4 /* XLFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5496C865E0A562ABFB655DEBF028A5C9 /* XLFormViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C1431FFD77F170727BD5D3A33B474A /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01928F36866978DC9E67F72AA6DE39 /* GTMSessionUploadFetcher.m */; };
+		F4F1FE892629D4702E574B68A915C398 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1C88EC89AC1993EB3FC869259879EF /* RandomGenerator.swift */; };
+		F714DB25548E541BF8F91DABA2EC982B /* ShiftOperations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38681D2FC9B4EEB8E80BD9E6F11E8918 /* ShiftOperations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA37E40D20F69FDC6212CEE53F67DA4D /* UIView+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D12C9AA67EC3749686CEDC683A51CF77 /* UIView+XLFormAdditions.m */; };
+		FB884CFD0A58EC619CC4B930EF0C2365 /* Bool+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95178185CD272AACCF7B97D8CFE2B89A /* Bool+RandomKit.swift */; };
+		FD272BBFAAA04AC8EB754D2501A3E062 /* XLFormPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF47BCDBB04ED1850AB81A2CBDAB22B /* XLFormPickerCell.m */; };
+		FD6E82757A5C44A9C46CE03834274E7A /* CGVector+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567934AA5CD3FC02B684B4F2A84F311A /* CGVector+RandomKit.swift */; };
+		FF22F20038ADC5E60A1141BC97240377 /* NSObject+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 450AFA77058F2D83843933E41BA980E3 /* NSObject+XLFormAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF932278EE83518492335DB88AFA560C /* Set+RandomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA025DED935632F4D677869D3CB00F /* Set+RandomKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DB779740F7249704B2293D904820DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F707BAF342EEE9212F0B0F5C2364B06;
+			remoteInfo = XLForm;
+		};
+		511FEBE92BFE9870CA3758D27448A479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107A9565F9DF88517DFD3E28C05B2B96;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		76A4F9314635226F3A0F180C517B90BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B52F083CBB2BE3D28FAFF845454014;
+			remoteInfo = ShiftOperations;
+		};
+		899CB48DB10EFEFFA79CB68B79AC7F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B52F083CBB2BE3D28FAFF845454014;
+			remoteInfo = ShiftOperations;
+		};
+		8AC4C9342D620BB1F2634B0FB9DC4C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD4B9F5F83985D60634B60865D4864C;
+			remoteInfo = RandomKit;
+		};
+		FFB4089D16CB95F1CE94E91866354E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C052BEBFBD0AB5218CC64BA3450F6547;
+			remoteInfo = GTMSessionFetcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037FC6340DCB08469D9E7052FB76B094 /* XLFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormViewController.m; path = XLForm/XL/Controllers/XLFormViewController.m; sourceTree = "<group>"; };
+		046E6C7CE32D4FFC91BF01493B9DE18F /* XLFormButtonCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormButtonCell.h; path = XLForm/XL/Cell/XLFormButtonCell.h; sourceTree = "<group>"; };
+		0741713020CEE53F456F6B5284793B76 /* Pods-Profiles-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Profiles-resources.sh"; sourceTree = "<group>"; };
+		081244D2A3584E1A2C52C542C4FE7797 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088DDC38BCA50D5964B41CC05C6DBC98 /* XLFormSliderCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSliderCell.h; path = XLForm/XL/Cell/XLFormSliderCell.h; sourceTree = "<group>"; };
+		08BBE84BD4ABF9B60D14D4795EA40125 /* ARC4Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARC4Random.swift; path = Sources/RandomKit/Types/RandomGenerator/ARC4Random.swift; sourceTree = "<group>"; };
+		0C0CD7B3E6F0E713623F30EF7D1C6973 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C611E27170CD28599E43879E0F63F07 /* XLFormDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormDescriptor.m; path = XLForm/XL/Descriptors/XLFormDescriptor.m; sourceTree = "<group>"; };
+		0C6DE84CBDA8E1787E42D66E60A7A153 /* CGPoint+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+RandomKit.swift"; path = "Sources/RandomKit/Extensions/CoreGraphics/CGPoint+RandomKit.swift"; sourceTree = "<group>"; };
+		0DA2075852EE173A0BE35123A904FBAD /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
+		0EB9155A9606C4740F6017542720FCA4 /* UnsafeRandom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsafeRandom.swift; path = Sources/RandomKit/Types/UnsafeRandom.swift; sourceTree = "<group>"; };
+		0F1B016DD3A8FE7CEDEA8AB36459DA90 /* ShiftOperations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShiftOperations.xcconfig; sourceTree = "<group>"; };
+		10D20759926820C83FE27D9DBF1DFA1F /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		1215BB3C4803AD3423647B3534D13EFA /* SeedableRandomGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeedableRandomGenerator.swift; path = Sources/RandomKit/Types/RandomGenerator/SeedableRandomGenerator.swift; sourceTree = "<group>"; };
+		12B6273CF5E99DE5F432CA247795AEFC /* XLForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLForm.m; path = XLForm/XL/XLForm.m; sourceTree = "<group>"; };
+		14F3657944E0C38C4B81E937AF2BB766 /* RandomToValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomToValue.swift; path = Sources/RandomKit/Types/RandomToValue.swift; sourceTree = "<group>"; };
+		1652962F44DD046DC3912E307A89C19A /* RandomEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomEnum.swift; path = Sources/RandomKit/Types/RandomEnum.swift; sourceTree = "<group>"; };
+		181A71C9814E63E089FB7FA97466AB5B /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1C1E4CF52C39AB28373C893CD6EE5D57 /* RandomWithMin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomWithMin.swift; path = Sources/RandomKit/Types/RandomWithMin.swift; sourceTree = "<group>"; };
+		1FCB40C437AFF1107CCA98FB12594C95 /* Trivial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trivial.swift; path = Sources/RandomKit/Internal/Trivial.swift; sourceTree = "<group>"; };
+		214A66A1C74E9F3C71F1F92B8331EC41 /* XLFormValidationStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormValidationStatus.h; path = XLForm/XL/Validation/XLFormValidationStatus.h; sourceTree = "<group>"; };
+		21A3BC8A64762EFFB1C7D41340652139 /* ShiftOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShiftOperations.framework; path = ShiftOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EBD319B514AEDADBE0816F6B90E242 /* XLFormTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormTextView.m; path = XLForm/XL/Helpers/Views/XLFormTextView.m; sourceTree = "<group>"; };
+		221C1066517DC1985618E3929F338CD1 /* XLFormRowNavigationAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRowNavigationAccessoryView.h; path = XLForm/XL/Helpers/Views/XLFormRowNavigationAccessoryView.h; sourceTree = "<group>"; };
+		2302836C8167C269E2C44233F770E421 /* XLFormSelectorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSelectorCell.h; path = XLForm/XL/Cell/XLFormSelectorCell.h; sourceTree = "<group>"; };
+		2552529FA93FED43B09E070882E438C8 /* RandomWithAll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomWithAll.swift; path = Sources/RandomKit/Types/RandomWithAll.swift; sourceTree = "<group>"; };
+		269689971FFD987DFF4BC85668212E76 /* XLFormRowDescriptorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRowDescriptorViewController.h; path = XLForm/XL/Controllers/XLFormRowDescriptorViewController.h; sourceTree = "<group>"; };
+		26DB2209C0DE12AF93D1C5E128187B4B /* XLFormDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDescriptor.h; path = XLForm/XL/Descriptors/XLFormDescriptor.h; sourceTree = "<group>"; };
+		275DCF4F4667EB0B166DBAC6A5DC2BDE /* XLFormCheckCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormCheckCell.h; path = XLForm/XL/Cell/XLFormCheckCell.h; sourceTree = "<group>"; };
+		29EE889DB606EB3F3BD21CBC77E0762F /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		2BC8FDA8DA46E7BC24481146D53E3CF0 /* NSArray+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSArray+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Foundation/NSArray+RandomKit.swift"; sourceTree = "<group>"; };
+		2BE6F84A7B0840407D4E4B0552C92774 /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
+		2C1C88EC89AC1993EB3FC869259879EF /* RandomGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomGenerator.swift; path = Sources/RandomKit/Types/RandomGenerator/RandomGenerator.swift; sourceTree = "<group>"; };
+		2CC687B2C46DD0BF74E0BE336D404918 /* XLForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLForm.h; path = XLForm/XL/XLForm.h; sourceTree = "<group>"; };
+		2E515F53A3178A09CE468B0353030C9B /* Color+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Foundation/Color+RandomKit.swift"; sourceTree = "<group>"; };
+		31A1BBC7CDF7B2D0296E3AF23E2F0BC9 /* XLFormImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormImageCell.m; path = XLForm/XL/Cell/XLFormImageCell.m; sourceTree = "<group>"; };
+		3252B27B59535B8BD91BEA09205EE703 /* XLFormDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDatePickerCell.h; path = XLForm/XL/Cell/XLFormDatePickerCell.h; sourceTree = "<group>"; };
+		347592B9B0D5AF90AEFC2D22B3CE8BD4 /* NSArray+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSArray+XLFormAdditions.m"; sourceTree = "<group>"; };
+		38681D2FC9B4EEB8E80BD9E6F11E8918 /* ShiftOperations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShiftOperations-umbrella.h"; sourceTree = "<group>"; };
+		396EEBFCE003CA59A67234C6020C5AAC /* Dictionary+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Dictionary+RandomKit.swift"; sourceTree = "<group>"; };
+		3A02ADD5822BDC1F4BF8E32317696394 /* XLFormPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormPickerCell.h; path = XLForm/XL/Cell/XLFormPickerCell.h; sourceTree = "<group>"; };
+		3A1937ED531AFFAC0F3E14514FDCE253 /* ReseedingRandomGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReseedingRandomGenerator.swift; path = Sources/RandomKit/Types/RandomGenerator/ReseedingRandomGenerator.swift; sourceTree = "<group>"; };
+		3A1EB0106F6B8E90746C500522C983B6 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
+		3B39B5881D6E3AC92FE41DE0AB13A6DE /* Pods-Profiles-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Profiles-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E1043293FACD68267D41F5B12E0DB78 /* String+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/String+RandomKit.swift"; sourceTree = "<group>"; };
+		3F76121115AEA694CD24668A83A217D4 /* RandomKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomKit.xcconfig; sourceTree = "<group>"; };
+		3F96E62EC4231E87165878E8F44DD4E7 /* XLFormDescriptorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDescriptorCell.h; path = XLForm/XL/Cell/XLFormDescriptorCell.h; sourceTree = "<group>"; };
+		448BBA184EEA114ED574A16EC320923D /* NSExpression+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSExpression+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSExpression+XLFormAdditions.m"; sourceTree = "<group>"; };
+		450AFA77058F2D83843933E41BA980E3 /* NSObject+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSObject+XLFormAdditions.h"; sourceTree = "<group>"; };
+		458F6898AA211D940B2BB8C2B0E63836 /* Pods-Profiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Profiles.release.xcconfig"; sourceTree = "<group>"; };
+		45B6BDF1842D3F79FC1719D54915508D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		45D28405B39F7F8524FC422A6A2C8E7F /* Character+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Character+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Character+RandomKit.swift"; sourceTree = "<group>"; };
+		461EF8CBDA7E123A6166AEB689FD59AF /* XLFormOptionsObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormOptionsObject.m; path = XLForm/XL/Controllers/XLFormOptionsObject.m; sourceTree = "<group>"; };
+		46936692A0FD2BD40F0007D759F9297E /* Sequence+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Sequence+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Sequence+RandomKit.swift"; sourceTree = "<group>"; };
+		480B84C11D048B392E3A75AEBA21BF45 /* XLFormOptionsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormOptionsViewController.m; path = XLForm/XL/Controllers/XLFormOptionsViewController.m; sourceTree = "<group>"; };
+		4821B64864DBC3157D33646EEF1A2145 /* XLFormValidatorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormValidatorProtocol.h; path = XLForm/XL/Validation/XLFormValidatorProtocol.h; sourceTree = "<group>"; };
+		49E3D6FF8F8A89F959190F235AE831B0 /* NSPredicate+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSPredicate+XLFormAdditions.h"; sourceTree = "<group>"; };
+		4AA4191A008B1E4F8F7BD2902A48BE97 /* XLFormLeftRightSelectorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormLeftRightSelectorCell.m; path = XLForm/XL/Cell/XLFormLeftRightSelectorCell.m; sourceTree = "<group>"; };
+		4CA998596FD10D106887419C6223FFAB /* XLFormDateCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormDateCell.m; path = XLForm/XL/Cell/XLFormDateCell.m; sourceTree = "<group>"; };
+		4CF9D0D66C7962CE0F8EA1F479149F0D /* XLFormInlineRowDescriptorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormInlineRowDescriptorCell.h; path = XLForm/XL/Cell/XLFormInlineRowDescriptorCell.h; sourceTree = "<group>"; };
+		4DF245D150EE4FCE8514FCF41F33E477 /* XLFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormValidator.h; path = XLForm/XL/Validation/XLFormValidator.h; sourceTree = "<group>"; };
+		4F0CE740A78639DE9D76BD3F26D04270 /* XLFormRightDetailCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRightDetailCell.h; path = XLForm/XL/Helpers/Views/XLFormRightDetailCell.h; sourceTree = "<group>"; };
+		50E13328A063EEFEEBD1DD5D172B4162 /* XLFormValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormValidator.m; path = XLForm/XL/Validation/XLFormValidator.m; sourceTree = "<group>"; };
+		51A4BC650DEE1A8F94150C03D3F2E8F8 /* Xorshift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Xorshift.swift; path = Sources/RandomKit/Types/RandomGenerator/Xorshift.swift; sourceTree = "<group>"; };
+		527E09135C8A396C81E801872F1F0E7D /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		529F39E3D31E169485EC62950CFEFCB3 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSDictionary+URLArguments.m"; path = "Foundation/GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		53894C25E754B8EE0700DC811F8649DA /* XLFormTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormTextView.h; path = XLForm/XL/Helpers/Views/XLFormTextView.h; sourceTree = "<group>"; };
+		5496C865E0A562ABFB655DEBF028A5C9 /* XLFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormViewController.h; path = XLForm/XL/Controllers/XLFormViewController.h; sourceTree = "<group>"; };
+		54EB24CFC7B0389BF0691AA7170E1DBB /* XLForm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLForm-umbrella.h"; sourceTree = "<group>"; };
+		559F5AC0A7314FC78944F1D14A318015 /* ShiftOperations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShiftOperations-prefix.pch"; sourceTree = "<group>"; };
+		567934AA5CD3FC02B684B4F2A84F311A /* CGVector+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGVector+RandomKit.swift"; path = "Sources/RandomKit/Extensions/CoreGraphics/CGVector+RandomKit.swift"; sourceTree = "<group>"; };
+		57AC213C5649DD3011F461664F79DC96 /* Range+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Range+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Range+RandomKit.swift"; sourceTree = "<group>"; };
+		599C1DE6B27ADA2A69018621CA0FC3F6 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		5B5D136AA115126C9000667871A41144 /* FloatingPoint+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/FloatingPoint+RandomKit.swift"; sourceTree = "<group>"; };
+		5C1F0CCFF43FA682667007FDBE1260E3 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		5C812AE515CB13995F037A669047A2A0 /* XLFormRowDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRowDescriptor.h; path = XLForm/XL/Descriptors/XLFormRowDescriptor.h; sourceTree = "<group>"; };
+		5CD599444134403E4CA3E1E1591B3656 /* StackArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StackArray.swift; path = Sources/RandomKit/Internal/StackArray.swift; sourceTree = "<group>"; };
+		5DB955303E49FBE1202CE5291B80838D /* RandomRawRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomRawRepresentable.swift; path = Sources/RandomKit/Types/RandomRawRepresentable.swift; sourceTree = "<group>"; };
+		6075B1997ED799EF034EBD6545AFDFB7 /* XLFormRowDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRowDescriptor.m; path = XLForm/XL/Descriptors/XLFormRowDescriptor.m; sourceTree = "<group>"; };
+		60B628CF0F564996646794BD0C892693 /* XLFormInlineSelectorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormInlineSelectorCell.m; path = XLForm/XL/Cell/XLFormInlineSelectorCell.m; sourceTree = "<group>"; };
+		6108097B33D90B49E27138D158266615 /* Xoroshiro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Xoroshiro.swift; path = Sources/RandomKit/Types/RandomGenerator/Xoroshiro.swift; sourceTree = "<group>"; };
+		61592EFF92CD2A8B8A25463FC47E0BEF /* XLFormBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormBaseCell.m; path = XLForm/XL/Cell/XLFormBaseCell.m; sourceTree = "<group>"; };
+		632C935464E76EEBC3E90E36E88AD3DB /* CGRect+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+RandomKit.swift"; path = "Sources/RandomKit/Extensions/CoreGraphics/CGRect+RandomKit.swift"; sourceTree = "<group>"; };
+		644BA033AC3DCC02032A9C49D261C4CB /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		64F882232C464636042D8A231F64ACFB /* RandomBytesGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomBytesGenerator.swift; path = Sources/RandomKit/Types/RandomGenerator/RandomBytesGenerator.swift; sourceTree = "<group>"; };
+		6760C576630054EC7B77483AD495FDCA /* XLFormSwitchCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSwitchCell.h; path = XLForm/XL/Cell/XLFormSwitchCell.h; sourceTree = "<group>"; };
+		67A7A929C14137E323F4A7CA98AC5311 /* RandomTuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomTuple.swift; path = Sources/RandomKit/Functions/RandomTuple.swift; sourceTree = "<group>"; };
+		6AC5A36325C9C1DBF39A510AFBC86868 /* NSObject+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSObject+XLFormAdditions.m"; sourceTree = "<group>"; };
+		6CA44470B90774874DFF328F85749B1E /* Array+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Array+RandomKit.swift"; sourceTree = "<group>"; };
+		6CFB37742C039C678202894E9D30DB22 /* XLFormValidationStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormValidationStatus.m; path = XLForm/XL/Validation/XLFormValidationStatus.m; sourceTree = "<group>"; };
+		6D09BC91D90CBE74EC1948A6A9E0B109 /* Date+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Foundation/Date+RandomKit.swift"; sourceTree = "<group>"; };
+		6D9496963A22511C02933BD04B34E47D /* XLFormRightDetailCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRightDetailCell.m; path = XLForm/XL/Helpers/Views/XLFormRightDetailCell.m; sourceTree = "<group>"; };
+		6F4E64D1D58BA7ABFC8C3DC7AAF2A788 /* XLFormRowNavigationAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRowNavigationAccessoryView.m; path = XLForm/XL/Helpers/Views/XLFormRowNavigationAccessoryView.m; sourceTree = "<group>"; };
+		708894118165321A3B25D00668128288 /* MersenneTwister.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MersenneTwister.swift; path = Sources/RandomKit/Types/RandomGenerator/MersenneTwister.swift; sourceTree = "<group>"; };
+		7249C16F9CFCB3350D992CCB7FDBEB6C /* XLFormTextFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormTextFieldCell.h; path = XLForm/XL/Cell/XLFormTextFieldCell.h; sourceTree = "<group>"; };
+		72A00226C7E254C8709C0B9983CB47F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		76B340B1BADD921BEDAD01EC61B1AB5F /* NSArray+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSArray+XLFormAdditions.h"; sourceTree = "<group>"; };
+		76F4B4376F807DB5E69DBA84A71618E3 /* ShiftOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShiftOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7872ED41619F2F2257D3BA5A944DF0EE /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C1431FFD77F170727BD5D3A33B474A /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		79217991AFC241779049FD8DC2AB9EB5 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		79CFDE3DE54CA027A2591AD3468F079E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A6E99A22230523D505C8F123B635620 /* RandomWithMax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomWithMax.swift; path = Sources/RandomKit/Types/RandomWithMax.swift; sourceTree = "<group>"; };
+		7B7190E798579608C1BE1B15A5C3ECE9 /* Decimal+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Decimal+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Foundation/Decimal+RandomKit.swift"; sourceTree = "<group>"; };
+		7E32C68459EA9794506847BF5618C9CF /* XLFormSelectorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSelectorCell.m; path = XLForm/XL/Cell/XLFormSelectorCell.m; sourceTree = "<group>"; };
+		7E94878DDAE77DCF14FC6EC3AA6B654B /* XLFormTextFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormTextFieldCell.m; path = XLForm/XL/Cell/XLFormTextFieldCell.m; sourceTree = "<group>"; };
+		7EA03A64EB45772F67186622D8EDB017 /* ShiftOperations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShiftOperations-dummy.m"; sourceTree = "<group>"; };
+		7EFD2893B179733705A152FF04333ED4 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		801B4C7DB665185246E0600FD9C2908A /* CGSize+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+RandomKit.swift"; path = "Sources/RandomKit/Extensions/CoreGraphics/CGSize+RandomKit.swift"; sourceTree = "<group>"; };
+		8041F5FAE59F2FB1B96E2FC3DAC08C24 /* XLFormImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormImageCell.h; path = XLForm/XL/Cell/XLFormImageCell.h; sourceTree = "<group>"; };
+		8049325ABF55FA546701F514E45FEA16 /* NSPredicate+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSPredicate+XLFormAdditions.m"; sourceTree = "<group>"; };
+		815B8E693E1E77BAA5342D7904B32AE1 /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
+		830FD820BF54D2AA7E7C523A315BB9FE /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		8310EF66DC348DA388370F18B6DAF268 /* XLFormStepCounterCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormStepCounterCell.m; path = XLForm/XL/Cell/XLFormStepCounterCell.m; sourceTree = "<group>"; };
+		8381ACDA1912F7106C921BAA71327E0D /* XLFormRightImageButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRightImageButton.h; path = XLForm/XL/Helpers/Views/XLFormRightImageButton.h; sourceTree = "<group>"; };
+		84474BCD9F4866B68258B937C3535F38 /* RandomKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomKit-umbrella.h"; sourceTree = "<group>"; };
+		86EAABEDA1410830F34D6D6513E7CFA6 /* XLForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLForm.framework; path = XLForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87423BFEDD1D88355BD464B9F970C88A /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8788381C6E5DFBCA98371D7CED923D99 /* UnicodeScalar+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UnicodeScalar+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/UnicodeScalar+RandomKit.swift"; sourceTree = "<group>"; };
+		88BA025DED935632F4D677869D3CB00F /* Set+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Set+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Set+RandomKit.swift"; sourceTree = "<group>"; };
+		89DB7B495C7E8A7999A2882CE0C8A7E9 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		8C0B7006803E60B9992C08B391F3D014 /* RandomWithinRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomWithinRange.swift; path = Sources/RandomKit/Types/RandomWithinRange.swift; sourceTree = "<group>"; };
+		8D0E6A6416D3E978A8EBDEDCE483AF5C /* RandomKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomKit-dummy.m"; sourceTree = "<group>"; };
+		8D503396444F89C567B995B2FED82A65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F2206BBC47F95ACD89D97ADBEB2C4E7 /* XLFormSectionDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSectionDescriptor.h; path = XLForm/XL/Descriptors/XLFormSectionDescriptor.h; sourceTree = "<group>"; };
+		9005085D058EEF911B573447303E01AF /* XLFormRegexValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRegexValidator.h; path = XLForm/XL/Validation/XLFormRegexValidator.h; sourceTree = "<group>"; };
+		909F20C2F81F17800E5DE4F59D1AF386 /* DeviceRandom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceRandom.swift; path = Sources/RandomKit/Types/RandomGenerator/DeviceRandom.swift; sourceTree = "<group>"; };
+		90B1DEC0BF40481C90CCB361A7AB4586 /* XLFormDatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormDatePickerCell.m; path = XLForm/XL/Cell/XLFormDatePickerCell.m; sourceTree = "<group>"; };
+		919860CEE19F50CCFA2A08A0C1BC87C1 /* XLFormSectionDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSectionDescriptor.m; path = XLForm/XL/Descriptors/XLFormSectionDescriptor.m; sourceTree = "<group>"; };
+		9304B60622FE31DE8C369D90B2E9CEA5 /* XLFormSwitchCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSwitchCell.m; path = XLForm/XL/Cell/XLFormSwitchCell.m; sourceTree = "<group>"; };
+		933E2742FFC6297F80117717EAB41648 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FA8BB6E3B8E14F4BF7E16117A3F001 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		95178185CD272AACCF7B97D8CFE2B89A /* Bool+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Bool+RandomKit.swift"; sourceTree = "<group>"; };
+		96F1F0988FEE3024AEC777933C8ED71E /* XLFormTextViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormTextViewCell.m; path = XLForm/XL/Cell/XLFormTextViewCell.m; sourceTree = "<group>"; };
+		97D8D3AB67126EBF6580DDF29F9797B7 /* NSExpression+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSExpression+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSExpression+XLFormAdditions.h"; sourceTree = "<group>"; };
+		9A148138792E740B8ADE2A1741104CA8 /* XLForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLForm-prefix.pch"; sourceTree = "<group>"; };
+		9D0BC046255572E26E9C4F1A88D1C565 /* XLForm.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = XLForm.bundle; path = XLForm/XLForm.bundle; sourceTree = "<group>"; };
+		9DE862051C2D71DF317665103AB5FCBE /* XLFormButtonCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormButtonCell.m; path = XLForm/XL/Cell/XLFormButtonCell.m; sourceTree = "<group>"; };
+		9FCED03827A6E599BF7ED163C1FC8D26 /* RandomWithExactWidth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomWithExactWidth.swift; path = Sources/RandomKit/Types/RandomWithExactWidth.swift; sourceTree = "<group>"; };
+		A0D2A294FDCD8B4E9F3E2D50271E1D41 /* Pods-Profiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Profiles.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E7F1C7B65FC7CFCB88737B350BA249 /* XLFormDescriptorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDescriptorDelegate.h; path = XLForm/XL/Descriptors/XLFormDescriptorDelegate.h; sourceTree = "<group>"; };
+		A366E0716DB522FBC0E0309AAA2C916E /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		A61C0178B1ADE457F86AB7C6C850DA20 /* XLFormRightImageButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRightImageButton.m; path = XLForm/XL/Helpers/Views/XLFormRightImageButton.m; sourceTree = "<group>"; };
+		A8D66092DB664CD1C1021D9E0B416BDF /* Pods-Profiles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Profiles-dummy.m"; sourceTree = "<group>"; };
+		AF4582D82D170A78088075735414A377 /* RandomWithMaxWidth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomWithMaxWidth.swift; path = Sources/RandomKit/Types/RandomWithMaxWidth.swift; sourceTree = "<group>"; };
+		AFDAA22C90D940DA5F2E4BE1F8B1A117 /* NSString+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSString+XLFormAdditions.m"; sourceTree = "<group>"; };
+		B0D5BA78477AA0E21303F8CFC0B0F3C8 /* Pods-Profiles.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Profiles.modulemap"; sourceTree = "<group>"; };
+		B2A64FBA5C368A2F35DBB84F1F66D9AE /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		B59BB796A63A16319C34CC448F6DFFD8 /* XorshiftStar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XorshiftStar.swift; path = Sources/RandomKit/Types/RandomGenerator/XorshiftStar.swift; sourceTree = "<group>"; };
+		B5EBD9137286CCCC9289D8B86E0AFE35 /* XLFormSegmentedCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSegmentedCell.m; path = XLForm/XL/Cell/XLFormSegmentedCell.m; sourceTree = "<group>"; };
+		B722FB9531FD4C820F30A21536897EE8 /* UniqueShuffleable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UniqueShuffleable.swift; path = Sources/RandomKit/Types/UniqueShuffleable.swift; sourceTree = "<group>"; };
+		B7907464B0F65E5913D5E79B16EF2C9B /* XLForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLForm.xcconfig; sourceTree = "<group>"; };
+		B8DD6E8CC078E200AD0CC41F77B01572 /* XLFormOptionsObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormOptionsObject.h; path = XLForm/XL/Controllers/XLFormOptionsObject.h; sourceTree = "<group>"; };
+		B8E4C0734EA72F21A76A2A93765873CF /* Pods_Profiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Profiles.framework; path = "Pods-Profiles.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01928F36866978DC9E67F72AA6DE39 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		BAF47BCDBB04ED1850AB81A2CBDAB22B /* XLFormPickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormPickerCell.m; path = XLForm/XL/Cell/XLFormPickerCell.m; sourceTree = "<group>"; };
+		BB4874F6262A9E87CE17C29E95C5831B /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Sources/RandomKit/Types/Random.swift; sourceTree = "<group>"; };
+		BBBCAD1C975C52A833EE614E931312BA /* XLForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XLForm.modulemap; sourceTree = "<group>"; };
+		BBFA52167299128D7015178F8DC090FA /* XLFormBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormBaseCell.h; path = XLForm/XL/Cell/XLFormBaseCell.h; sourceTree = "<group>"; };
+		BCBD8718C47965587BEABDD7860C6B90 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		C00503563745252099E632CD5D72ABE6 /* XLFormOptionsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormOptionsViewController.h; path = XLForm/XL/Controllers/XLFormOptionsViewController.h; sourceTree = "<group>"; };
+		C0CE35A195E5171FC7F7D3C619EB6E03 /* NSNumber+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNumber+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Foundation/NSNumber+RandomKit.swift"; sourceTree = "<group>"; };
+		C16CE1ACA77B183901B6DA12DCF99965 /* UIView+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XLFormAdditions.h"; path = "XLForm/XL/Helpers/UIView+XLFormAdditions.h"; sourceTree = "<group>"; };
+		C31510C177FAF5C0CDFEB6BA79F3DFB2 /* RandomKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RandomKit.framework; path = RandomKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C450EE05AC9AAF33237578480F652DD5 /* XLFormStepCounterCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormStepCounterCell.h; path = XLForm/XL/Cell/XLFormStepCounterCell.h; sourceTree = "<group>"; };
+		C47FC686822ED8C4BF0342F006E69F23 /* Strideable+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Strideable+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Strideable+RandomKit.swift"; sourceTree = "<group>"; };
+		C4CA20FC13BF3C8A31F384CD30CED68A /* RandomKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RandomKit.modulemap; sourceTree = "<group>"; };
+		C4CA9AFAFF00F6E5C63D1FEB14BACB00 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		C4E741631C6F377B13D361571F644934 /* Typecasting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typecasting.swift; path = Sources/RandomKit/Internal/Typecasting.swift; sourceTree = "<group>"; };
+		C61528C001DFA7531ED9A2AA6852D4BB /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		C80DD5E90D4E214173E8C4990C9690DC /* XLFormRegexValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRegexValidator.m; path = XLForm/XL/Validation/XLFormRegexValidator.m; sourceTree = "<group>"; };
+		C80F05854EF547C16A60585A64256C4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F83898C6116060CEA137820BA16100 /* Collection+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Collection+RandomKit.swift"; sourceTree = "<group>"; };
+		C9D9C2D16E9F442CE2E455D8308C21F6 /* RandomKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomKit-prefix.pch"; sourceTree = "<group>"; };
+		CA08861BA546AFA8FBC2F0B6EAF9269E /* RandomWithinClosedRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomWithinClosedRange.swift; path = Sources/RandomKit/Types/RandomWithinClosedRange.swift; sourceTree = "<group>"; };
+		CED076FBB7230E0B83DC7F6D7985B1C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE540B60956A08098F1D2BA10797CE3 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		D0AC97FFA0F849542A4C2262A6B9CEDE /* XLFormInlineSelectorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormInlineSelectorCell.h; path = XLForm/XL/Cell/XLFormInlineSelectorCell.h; sourceTree = "<group>"; };
+		D12C9AA67EC3749686CEDC683A51CF77 /* UIView+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XLFormAdditions.m"; path = "XLForm/XL/Helpers/UIView+XLFormAdditions.m"; sourceTree = "<group>"; };
+		D31D9E9B0B76570D736E7223083B33F4 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		D43F4C35DA3C5DD7B79FDF01DF2E9F5F /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		D702C4095B5706D24EF71A14B7546570 /* XLFormTextViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormTextViewCell.h; path = XLForm/XL/Cell/XLFormTextViewCell.h; sourceTree = "<group>"; };
+		D75B3204EEE288F159C73E803ED84476 /* RandomThroughValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomThroughValue.swift; path = Sources/RandomKit/Types/RandomThroughValue.swift; sourceTree = "<group>"; };
+		D78E94E2852B236957BD73B3D54FB9C0 /* NSString+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSString+XLFormAdditions.h"; sourceTree = "<group>"; };
+		DA209CCBFB23C4F043B74F9AA2F670DB /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		DF00B81ECBA745B6323DB4F16BEE372B /* XLForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLForm-dummy.m"; sourceTree = "<group>"; };
+		DF30881C78409687B104F5E1C77A071D /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		E2B511A5AB16F34260745641016BA9FD /* Pods-Profiles-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Profiles-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E34A7909DC7A7E2B1156F91D4F6CAA45 /* CGFloat+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+RandomKit.swift"; path = "Sources/RandomKit/Extensions/CoreGraphics/CGFloat+RandomKit.swift"; sourceTree = "<group>"; };
+		E60FF53892345C7C4D57684B963C2D53 /* XLFormSegmentedCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSegmentedCell.h; path = XLForm/XL/Cell/XLFormSegmentedCell.h; sourceTree = "<group>"; };
+		E677ADCAB05CAE4FBC954D8E2BD3D3E1 /* Pods-Profiles-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Profiles-frameworks.sh"; sourceTree = "<group>"; };
+		E75555F3CEE168831CC98DA7981B2996 /* ShiftOperations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ShiftOperations.modulemap; sourceTree = "<group>"; };
+		E7616EFEF1ED7957D03047EF376ECA1C /* XLFormCheckCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormCheckCell.m; path = XLForm/XL/Cell/XLFormCheckCell.m; sourceTree = "<group>"; };
+		E7CA9A121DA568220DABF4FE2A343AD8 /* Integer+RandomKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer+RandomKit.swift"; path = "Sources/RandomKit/Extensions/Swift/Integer+RandomKit.swift"; sourceTree = "<group>"; };
+		E896D9399988259053E75DCB7819EBD2 /* Pods-Profiles-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Profiles-umbrella.h"; sourceTree = "<group>"; };
+		ED1F6BB3BBCC10A12D46CE1CA00C013E /* Shuffleable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shuffleable.swift; path = Sources/RandomKit/Types/Shuffleable.swift; sourceTree = "<group>"; };
+		EE6A3358A3AB220DF0C63FBA21F1070C /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
+		EE906EE881A66ECC2F5EBE739334A56A /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		EF65E6CD0F66AB8F53FD588A5CEC44EC /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		F12108D623EC3B8B6440630D2FF87983 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		F170A9E987563B2A402362FAE90BC1BC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		F3F94C957057B4E19FB48F677FD6567A /* XLFormDateCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDateCell.h; path = XLForm/XL/Cell/XLFormDateCell.h; sourceTree = "<group>"; };
+		F81BE8F2258E73E119616F7EC1B1486A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FC0A68AA3843ECB430A3EB713D2600C7 /* XLFormLeftRightSelectorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormLeftRightSelectorCell.h; path = XLForm/XL/Cell/XLFormLeftRightSelectorCell.h; sourceTree = "<group>"; };
+		FC3378E372382F2291339F8B7D17FB0F /* ShiftOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiftOperations.swift; path = Sources/ShiftOperations.swift; sourceTree = "<group>"; };
+		FD0FBD6FC92D1D9CA61CB7C39C793D37 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		FE0817E421371BC33A570FDD01A59847 /* XLFormSliderCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSliderCell.m; path = XLForm/XL/Cell/XLFormSliderCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FE64F8AFF254CB2DF4AE81E552BF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A015A18FD20ADE01BC156C429DDB8831 /* CoreGraphics.framework in Frameworks */,
+				2DFA389A528C60D4DB06A10976BD0B67 /* Foundation.framework in Frameworks */,
+				ADECD9E0E86F1169155AA77CCC54929D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6411F42E9983C974415AD31985D03BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2197CB7CD941B731F38162CA802F5B65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE88E96161DE195EAAF0A3B6375EA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9B999DFAA1052294448B64C77434B1 /* Foundation.framework in Frameworks */,
+				65B56BD3DBC9B81BB008219D0BA735A9 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB2FD04E98E8D08B812CFAD3603A106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967551D370060AE0F4BC86BA2FE66E6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79D4A8F1D25D78B97BBC9F893128091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5944BB5D80546C533BAD421592D1B0BB /* Foundation.framework in Frameworks */,
+				B141C3D1BCB18F3BE53DCD404D1D0D08 /* ShiftOperations.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E699FACF8F57AEAFBE31A69A938637FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A43C827331A31AF2A24B8DC6F96001 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC547D99BAFAF9258CDEA4C4A18C95 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				10D20759926820C83FE27D9DBF1DFA1F /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		059718E22B520A76B9E6E9490E20791C /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				25D6BD55502DF7A02D60965F7D909D7A /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		19A83117F2FC940C7F94840B1D48A5AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830FD820BF54D2AA7E7C523A315BB9FE /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A6616D35C9F29B2CC5D479B96D6C8D9 /* XLForm */ = {
+			isa = PBXGroup;
+			children = (
+				76B340B1BADD921BEDAD01EC61B1AB5F /* NSArray+XLFormAdditions.h */,
+				347592B9B0D5AF90AEFC2D22B3CE8BD4 /* NSArray+XLFormAdditions.m */,
+				97D8D3AB67126EBF6580DDF29F9797B7 /* NSExpression+XLFormAdditions.h */,
+				448BBA184EEA114ED574A16EC320923D /* NSExpression+XLFormAdditions.m */,
+				450AFA77058F2D83843933E41BA980E3 /* NSObject+XLFormAdditions.h */,
+				6AC5A36325C9C1DBF39A510AFBC86868 /* NSObject+XLFormAdditions.m */,
+				49E3D6FF8F8A89F959190F235AE831B0 /* NSPredicate+XLFormAdditions.h */,
+				8049325ABF55FA546701F514E45FEA16 /* NSPredicate+XLFormAdditions.m */,
+				D78E94E2852B236957BD73B3D54FB9C0 /* NSString+XLFormAdditions.h */,
+				AFDAA22C90D940DA5F2E4BE1F8B1A117 /* NSString+XLFormAdditions.m */,
+				C16CE1ACA77B183901B6DA12DCF99965 /* UIView+XLFormAdditions.h */,
+				D12C9AA67EC3749686CEDC683A51CF77 /* UIView+XLFormAdditions.m */,
+				2CC687B2C46DD0BF74E0BE336D404918 /* XLForm.h */,
+				12B6273CF5E99DE5F432CA247795AEFC /* XLForm.m */,
+				BBFA52167299128D7015178F8DC090FA /* XLFormBaseCell.h */,
+				61592EFF92CD2A8B8A25463FC47E0BEF /* XLFormBaseCell.m */,
+				046E6C7CE32D4FFC91BF01493B9DE18F /* XLFormButtonCell.h */,
+				9DE862051C2D71DF317665103AB5FCBE /* XLFormButtonCell.m */,
+				275DCF4F4667EB0B166DBAC6A5DC2BDE /* XLFormCheckCell.h */,
+				E7616EFEF1ED7957D03047EF376ECA1C /* XLFormCheckCell.m */,
+				F3F94C957057B4E19FB48F677FD6567A /* XLFormDateCell.h */,
+				4CA998596FD10D106887419C6223FFAB /* XLFormDateCell.m */,
+				3252B27B59535B8BD91BEA09205EE703 /* XLFormDatePickerCell.h */,
+				90B1DEC0BF40481C90CCB361A7AB4586 /* XLFormDatePickerCell.m */,
+				26DB2209C0DE12AF93D1C5E128187B4B /* XLFormDescriptor.h */,
+				0C611E27170CD28599E43879E0F63F07 /* XLFormDescriptor.m */,
+				3F96E62EC4231E87165878E8F44DD4E7 /* XLFormDescriptorCell.h */,
+				A1E7F1C7B65FC7CFCB88737B350BA249 /* XLFormDescriptorDelegate.h */,
+				8041F5FAE59F2FB1B96E2FC3DAC08C24 /* XLFormImageCell.h */,
+				31A1BBC7CDF7B2D0296E3AF23E2F0BC9 /* XLFormImageCell.m */,
+				4CF9D0D66C7962CE0F8EA1F479149F0D /* XLFormInlineRowDescriptorCell.h */,
+				D0AC97FFA0F849542A4C2262A6B9CEDE /* XLFormInlineSelectorCell.h */,
+				60B628CF0F564996646794BD0C892693 /* XLFormInlineSelectorCell.m */,
+				FC0A68AA3843ECB430A3EB713D2600C7 /* XLFormLeftRightSelectorCell.h */,
+				4AA4191A008B1E4F8F7BD2902A48BE97 /* XLFormLeftRightSelectorCell.m */,
+				B8DD6E8CC078E200AD0CC41F77B01572 /* XLFormOptionsObject.h */,
+				461EF8CBDA7E123A6166AEB689FD59AF /* XLFormOptionsObject.m */,
+				C00503563745252099E632CD5D72ABE6 /* XLFormOptionsViewController.h */,
+				480B84C11D048B392E3A75AEBA21BF45 /* XLFormOptionsViewController.m */,
+				3A02ADD5822BDC1F4BF8E32317696394 /* XLFormPickerCell.h */,
+				BAF47BCDBB04ED1850AB81A2CBDAB22B /* XLFormPickerCell.m */,
+				9005085D058EEF911B573447303E01AF /* XLFormRegexValidator.h */,
+				C80DD5E90D4E214173E8C4990C9690DC /* XLFormRegexValidator.m */,
+				4F0CE740A78639DE9D76BD3F26D04270 /* XLFormRightDetailCell.h */,
+				6D9496963A22511C02933BD04B34E47D /* XLFormRightDetailCell.m */,
+				8381ACDA1912F7106C921BAA71327E0D /* XLFormRightImageButton.h */,
+				A61C0178B1ADE457F86AB7C6C850DA20 /* XLFormRightImageButton.m */,
+				5C812AE515CB13995F037A669047A2A0 /* XLFormRowDescriptor.h */,
+				6075B1997ED799EF034EBD6545AFDFB7 /* XLFormRowDescriptor.m */,
+				269689971FFD987DFF4BC85668212E76 /* XLFormRowDescriptorViewController.h */,
+				221C1066517DC1985618E3929F338CD1 /* XLFormRowNavigationAccessoryView.h */,
+				6F4E64D1D58BA7ABFC8C3DC7AAF2A788 /* XLFormRowNavigationAccessoryView.m */,
+				8F2206BBC47F95ACD89D97ADBEB2C4E7 /* XLFormSectionDescriptor.h */,
+				919860CEE19F50CCFA2A08A0C1BC87C1 /* XLFormSectionDescriptor.m */,
+				E60FF53892345C7C4D57684B963C2D53 /* XLFormSegmentedCell.h */,
+				B5EBD9137286CCCC9289D8B86E0AFE35 /* XLFormSegmentedCell.m */,
+				2302836C8167C269E2C44233F770E421 /* XLFormSelectorCell.h */,
+				7E32C68459EA9794506847BF5618C9CF /* XLFormSelectorCell.m */,
+				088DDC38BCA50D5964B41CC05C6DBC98 /* XLFormSliderCell.h */,
+				FE0817E421371BC33A570FDD01A59847 /* XLFormSliderCell.m */,
+				C450EE05AC9AAF33237578480F652DD5 /* XLFormStepCounterCell.h */,
+				8310EF66DC348DA388370F18B6DAF268 /* XLFormStepCounterCell.m */,
+				6760C576630054EC7B77483AD495FDCA /* XLFormSwitchCell.h */,
+				9304B60622FE31DE8C369D90B2E9CEA5 /* XLFormSwitchCell.m */,
+				7249C16F9CFCB3350D992CCB7FDBEB6C /* XLFormTextFieldCell.h */,
+				7E94878DDAE77DCF14FC6EC3AA6B654B /* XLFormTextFieldCell.m */,
+				53894C25E754B8EE0700DC811F8649DA /* XLFormTextView.h */,
+				21EBD319B514AEDADBE0816F6B90E242 /* XLFormTextView.m */,
+				D702C4095B5706D24EF71A14B7546570 /* XLFormTextViewCell.h */,
+				96F1F0988FEE3024AEC777933C8ED71E /* XLFormTextViewCell.m */,
+				214A66A1C74E9F3C71F1F92B8331EC41 /* XLFormValidationStatus.h */,
+				6CFB37742C039C678202894E9D30DB22 /* XLFormValidationStatus.m */,
+				4DF245D150EE4FCE8514FCF41F33E477 /* XLFormValidator.h */,
+				50E13328A063EEFEEBD1DD5D172B4162 /* XLFormValidator.m */,
+				4821B64864DBC3157D33646EEF1A2145 /* XLFormValidatorProtocol.h */,
+				5496C865E0A562ABFB655DEBF028A5C9 /* XLFormViewController.h */,
+				037FC6340DCB08469D9E7052FB76B094 /* XLFormViewController.m */,
+				9956BDCC8121D3F2EE888C02CA97B640 /* Resources */,
+				724E088977A751FD50244F91EEDFA3CB /* Support Files */,
+			);
+			name = XLForm;
+			path = XLForm;
+			sourceTree = "<group>";
+		};
+		223141F4F12722B50C35C290FE0B2A0C /* RandomKit */ = {
+			isa = PBXGroup;
+			children = (
+				08BBE84BD4ABF9B60D14D4795EA40125 /* ARC4Random.swift */,
+				6CA44470B90774874DFF328F85749B1E /* Array+RandomKit.swift */,
+				95178185CD272AACCF7B97D8CFE2B89A /* Bool+RandomKit.swift */,
+				E34A7909DC7A7E2B1156F91D4F6CAA45 /* CGFloat+RandomKit.swift */,
+				0C6DE84CBDA8E1787E42D66E60A7A153 /* CGPoint+RandomKit.swift */,
+				632C935464E76EEBC3E90E36E88AD3DB /* CGRect+RandomKit.swift */,
+				801B4C7DB665185246E0600FD9C2908A /* CGSize+RandomKit.swift */,
+				567934AA5CD3FC02B684B4F2A84F311A /* CGVector+RandomKit.swift */,
+				45D28405B39F7F8524FC422A6A2C8E7F /* Character+RandomKit.swift */,
+				C8F83898C6116060CEA137820BA16100 /* Collection+RandomKit.swift */,
+				2E515F53A3178A09CE468B0353030C9B /* Color+RandomKit.swift */,
+				6D09BC91D90CBE74EC1948A6A9E0B109 /* Date+RandomKit.swift */,
+				7B7190E798579608C1BE1B15A5C3ECE9 /* Decimal+RandomKit.swift */,
+				909F20C2F81F17800E5DE4F59D1AF386 /* DeviceRandom.swift */,
+				396EEBFCE003CA59A67234C6020C5AAC /* Dictionary+RandomKit.swift */,
+				5B5D136AA115126C9000667871A41144 /* FloatingPoint+RandomKit.swift */,
+				E7CA9A121DA568220DABF4FE2A343AD8 /* Integer+RandomKit.swift */,
+				708894118165321A3B25D00668128288 /* MersenneTwister.swift */,
+				2BC8FDA8DA46E7BC24481146D53E3CF0 /* NSArray+RandomKit.swift */,
+				C0CE35A195E5171FC7F7D3C619EB6E03 /* NSNumber+RandomKit.swift */,
+				BB4874F6262A9E87CE17C29E95C5831B /* Random.swift */,
+				64F882232C464636042D8A231F64ACFB /* RandomBytesGenerator.swift */,
+				1652962F44DD046DC3912E307A89C19A /* RandomEnum.swift */,
+				2C1C88EC89AC1993EB3FC869259879EF /* RandomGenerator.swift */,
+				5DB955303E49FBE1202CE5291B80838D /* RandomRawRepresentable.swift */,
+				D75B3204EEE288F159C73E803ED84476 /* RandomThroughValue.swift */,
+				14F3657944E0C38C4B81E937AF2BB766 /* RandomToValue.swift */,
+				67A7A929C14137E323F4A7CA98AC5311 /* RandomTuple.swift */,
+				2552529FA93FED43B09E070882E438C8 /* RandomWithAll.swift */,
+				9FCED03827A6E599BF7ED163C1FC8D26 /* RandomWithExactWidth.swift */,
+				CA08861BA546AFA8FBC2F0B6EAF9269E /* RandomWithinClosedRange.swift */,
+				8C0B7006803E60B9992C08B391F3D014 /* RandomWithinRange.swift */,
+				7A6E99A22230523D505C8F123B635620 /* RandomWithMax.swift */,
+				AF4582D82D170A78088075735414A377 /* RandomWithMaxWidth.swift */,
+				1C1E4CF52C39AB28373C893CD6EE5D57 /* RandomWithMin.swift */,
+				57AC213C5649DD3011F461664F79DC96 /* Range+RandomKit.swift */,
+				3A1937ED531AFFAC0F3E14514FDCE253 /* ReseedingRandomGenerator.swift */,
+				1215BB3C4803AD3423647B3534D13EFA /* SeedableRandomGenerator.swift */,
+				46936692A0FD2BD40F0007D759F9297E /* Sequence+RandomKit.swift */,
+				88BA025DED935632F4D677869D3CB00F /* Set+RandomKit.swift */,
+				ED1F6BB3BBCC10A12D46CE1CA00C013E /* Shuffleable.swift */,
+				5CD599444134403E4CA3E1E1591B3656 /* StackArray.swift */,
+				C47FC686822ED8C4BF0342F006E69F23 /* Strideable+RandomKit.swift */,
+				3E1043293FACD68267D41F5B12E0DB78 /* String+RandomKit.swift */,
+				1FCB40C437AFF1107CCA98FB12594C95 /* Trivial.swift */,
+				C4E741631C6F377B13D361571F644934 /* Typecasting.swift */,
+				8788381C6E5DFBCA98371D7CED923D99 /* UnicodeScalar+RandomKit.swift */,
+				B722FB9531FD4C820F30A21536897EE8 /* UniqueShuffleable.swift */,
+				0EB9155A9606C4740F6017542720FCA4 /* UnsafeRandom.swift */,
+				6108097B33D90B49E27138D158266615 /* Xoroshiro.swift */,
+				51A4BC650DEE1A8F94150C03D3F2E8F8 /* Xorshift.swift */,
+				B59BB796A63A16319C34CC448F6DFFD8 /* XorshiftStar.swift */,
+				5049AA7EE795BA2DA5C701FB7B8126B8 /* Support Files */,
+			);
+			name = RandomKit;
+			path = RandomKit;
+			sourceTree = "<group>";
+		};
+		25D6BD55502DF7A02D60965F7D909D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599C1DE6B27ADA2A69018621CA0FC3F6 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26E7E58A79672585472424F90E44432E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31D9E9B0B76570D736E7223083B33F4 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A6D4FD245C724AA9B23292F4EF49D08 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57ED7559C217D080109EBAEE3859E7CF /* Pods-Profiles */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32BAC8E8C19E272257AC634EC497DD23 /* DebugUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0DA2075852EE173A0BE35123A904FBAD /* GTMDebugSelectorValidation.h */,
+				2BE6F84A7B0840407D4E4B0552C92774 /* GTMDebugThreadValidation.h */,
+				815B8E693E1E77BAA5342D7904B32AE1 /* GTMMethodCheck.h */,
+			);
+			name = DebugUtils;
+			sourceTree = "<group>";
+		};
+		35B28AAAD9B5E396697D65A6ADFC8294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527E09135C8A396C81E801872F1F0E7D /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		360A83ED5FA74135F662DAB995E4117A /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				26E7E58A79672585472424F90E44432E /* Frameworks */,
+			);
+			name = FirebaseStorage;
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		3B0615E96F20E2BC6F007005C6013C34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF30881C78409687B104F5E1C77A071D /* GTMSessionFetcher.modulemap */,
+				EE6A3358A3AB220DF0C63FBA21F1070C /* GTMSessionFetcher.xcconfig */,
+				EE906EE881A66ECC2F5EBE739334A56A /* GTMSessionFetcher-dummy.m */,
+				89DB7B495C7E8A7999A2882CE0C8A7E9 /* GTMSessionFetcher-prefix.pch */,
+				5C1F0CCFF43FA682667007FDBE1260E3 /* GTMSessionFetcher-umbrella.h */,
+				C80F05854EF547C16A60585A64256C4E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMSessionFetcher";
+			sourceTree = "<group>";
+		};
+		3D52928AF8F1D34735FDC8D9F2CB6721 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				5CF302FABA0173B5F62218320BC1847D /* Frameworks */,
+			);
+			name = FirebaseAuth;
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		5049AA7EE795BA2DA5C701FB7B8126B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C0CD7B3E6F0E713623F30EF7D1C6973 /* Info.plist */,
+				C4CA20FC13BF3C8A31F384CD30CED68A /* RandomKit.modulemap */,
+				3F76121115AEA694CD24668A83A217D4 /* RandomKit.xcconfig */,
+				8D0E6A6416D3E978A8EBDEDCE483AF5C /* RandomKit-dummy.m */,
+				C9D9C2D16E9F442CE2E455D8308C21F6 /* RandomKit-prefix.pch */,
+				84474BCD9F4866B68258B937C3535F38 /* RandomKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RandomKit";
+			sourceTree = "<group>";
+		};
+		55E3FECE3A4E2347585458A6EC866C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76F4B4376F807DB5E69DBA84A71618E3 /* ShiftOperations.framework */,
+				B55A336C4C2021459955738E3C56F644 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57ED7559C217D080109EBAEE3859E7CF /* Pods-Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				933E2742FFC6297F80117717EAB41648 /* Info.plist */,
+				B0D5BA78477AA0E21303F8CFC0B0F3C8 /* Pods-Profiles.modulemap */,
+				E2B511A5AB16F34260745641016BA9FD /* Pods-Profiles-acknowledgements.markdown */,
+				3B39B5881D6E3AC92FE41DE0AB13A6DE /* Pods-Profiles-acknowledgements.plist */,
+				A8D66092DB664CD1C1021D9E0B416BDF /* Pods-Profiles-dummy.m */,
+				E677ADCAB05CAE4FBC954D8E2BD3D3E1 /* Pods-Profiles-frameworks.sh */,
+				0741713020CEE53F456F6B5284793B76 /* Pods-Profiles-resources.sh */,
+				E896D9399988259053E75DCB7819EBD2 /* Pods-Profiles-umbrella.h */,
+				A0D2A294FDCD8B4E9F3E2D50271E1D41 /* Pods-Profiles.debug.xcconfig */,
+				458F6898AA211D940B2BB8C2B0E63836 /* Pods-Profiles.release.xcconfig */,
+			);
+			name = "Pods-Profiles";
+			path = "Target Support Files/Pods-Profiles";
+			sourceTree = "<group>";
+		};
+		5C8A3DE6336B823DABE11479229C729D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87423BFEDD1D88355BD464B9F970C88A /* GoogleToolboxForMac.framework */,
+				7872ED41619F2F2257D3BA5A944DF0EE /* GTMSessionFetcher.framework */,
+				B8E4C0734EA72F21A76A2A93765873CF /* Pods_Profiles.framework */,
+				C31510C177FAF5C0CDFEB6BA79F3DFB2 /* RandomKit.framework */,
+				21A3BC8A64762EFFB1C7D41340652139 /* ShiftOperations.framework */,
+				86EAABEDA1410830F34D6D6513E7CFA6 /* XLForm.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF302FABA0173B5F62218320BC1847D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A366E0716DB522FBC0E0309AAA2C916E /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		614BD910B18082B1591BEB5AFF586630 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				00FC547D99BAFAF9258CDEA4C4A18C95 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		61C83F42C7D255946E8B70B23FB63A22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F170A9E987563B2A402362FAE90BC1BC /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		724E088977A751FD50244F91EEDFA3CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D503396444F89C567B995B2FED82A65 /* Info.plist */,
+				BBBCAD1C975C52A833EE614E931312BA /* XLForm.modulemap */,
+				B7907464B0F65E5913D5E79B16EF2C9B /* XLForm.xcconfig */,
+				DF00B81ECBA745B6323DB4F16BEE372B /* XLForm-dummy.m */,
+				9A148138792E740B8ADE2A1741104CA8 /* XLForm-prefix.pch */,
+				54EB24CFC7B0389BF0691AA7170E1DBB /* XLForm-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLForm";
+			sourceTree = "<group>";
+		};
+		73BF5A1C6994B24760ED7E9962D39E93 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				19A83117F2FC940C7F94840B1D48A5AB /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				55E3FECE3A4E2347585458A6EC866C78 /* Frameworks */,
+				DF3EF7FAE3856C245CCB4833C4C95E7A /* Pods */,
+				5C8A3DE6336B823DABE11479229C729D /* Products */,
+				2A6D4FD245C724AA9B23292F4EF49D08 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EBB20FA63FA5F39682232EE850A8919 /* NSString+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				79217991AFC241779049FD8DC2AB9EB5 /* GTMNSString+URLArguments.h */,
+				CFE540B60956A08098F1D2BA10797CE3 /* GTMNSString+URLArguments.m */,
+			);
+			name = "NSString+URLArguments";
+			sourceTree = "<group>";
+		};
+		8C38894C8B1AC07065223CE8647516E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED076FBB7230E0B83DC7F6D7985B1C4 /* Info.plist */,
+				E75555F3CEE168831CC98DA7981B2996 /* ShiftOperations.modulemap */,
+				0F1B016DD3A8FE7CEDEA8AB36459DA90 /* ShiftOperations.xcconfig */,
+				7EA03A64EB45772F67186622D8EDB017 /* ShiftOperations-dummy.m */,
+				559F5AC0A7314FC78944F1D14A318015 /* ShiftOperations-prefix.pch */,
+				38681D2FC9B4EEB8E80BD9E6F11E8918 /* ShiftOperations-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ShiftOperations";
+			sourceTree = "<group>";
+		};
+		8F74D2B927DE654F1ACC4349AE7F8F70 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				35B28AAAD9B5E396697D65A6ADFC8294 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		97D06F3BD65CA499DCA6DBDD4F65F0AD /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				32BAC8E8C19E272257AC634EC497DD23 /* DebugUtils */,
+				A5E187F6473E2108981E4298F82076AE /* Defines */,
+				A711B70F9BA4F4E936A251BDEDD00D20 /* NSData+zlib */,
+				ED9796E2C5D4A34FFEC8591E5C26FAF5 /* NSDictionary+URLArguments */,
+				7EBB20FA63FA5F39682232EE850A8919 /* NSString+URLArguments */,
+				E52C5F7FAF3672704B1BBD92EAE6A9C0 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		9956BDCC8121D3F2EE888C02CA97B640 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D0BC046255572E26E9C4F1A88D1C565 /* XLForm.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A5E187F6473E2108981E4298F82076AE /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				181A71C9814E63E089FB7FA97466AB5B /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		A711B70F9BA4F4E936A251BDEDD00D20 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				29EE889DB606EB3F3BD21CBC77E0762F /* GTMNSData+zlib.h */,
+				FD0FBD6FC92D1D9CA61CB7C39C793D37 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		ACF37C3B1C585AF230AFB6C5E2F260DF /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				61C83F42C7D255946E8B70B23FB63A22 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		B01B2CF817EDF4DDB5C92E704A4D6CD5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F12108D623EC3B8B6440630D2FF87983 /* GTMSessionFetcher.h */,
+				3A1EB0106F6B8E90746C500522C983B6 /* GTMSessionFetcher.m */,
+				D43F4C35DA3C5DD7B79FDF01DF2E9F5F /* GTMSessionFetcherLogging.h */,
+				EF65E6CD0F66AB8F53FD588A5CEC44EC /* GTMSessionFetcherLogging.m */,
+				BCBD8718C47965587BEABDD7860C6B90 /* GTMSessionFetcherService.h */,
+				93FA8BB6E3B8E14F4BF7E16117A3F001 /* GTMSessionFetcherService.m */,
+				78C1431FFD77F170727BD5D3A33B474A /* GTMSessionUploadFetcher.h */,
+				BA01928F36866978DC9E67F72AA6DE39 /* GTMSessionUploadFetcher.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B55A336C4C2021459955738E3C56F644 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				72A00226C7E254C8709C0B9983CB47F7 /* CoreGraphics.framework */,
+				F81BE8F2258E73E119616F7EC1B1486A /* Foundation.framework */,
+				45B6BDF1842D3F79FC1719D54915508D /* Security.framework */,
+				79CFDE3DE54CA027A2591AD3468F079E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DEE7F3C272A930D6991065A27D03E921 /* ShiftOperations */ = {
+			isa = PBXGroup;
+			children = (
+				FC3378E372382F2291339F8B7D17FB0F /* ShiftOperations.swift */,
+				8C38894C8B1AC07065223CE8647516E4 /* Support Files */,
+			);
+			name = ShiftOperations;
+			path = ShiftOperations;
+			sourceTree = "<group>";
+		};
+		DF3EF7FAE3856C245CCB4833C4C95E7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				614BD910B18082B1591BEB5AFF586630 /* Firebase */,
+				ACF37C3B1C585AF230AFB6C5E2F260DF /* FirebaseAnalytics */,
+				3D52928AF8F1D34735FDC8D9F2CB6721 /* FirebaseAuth */,
+				73BF5A1C6994B24760ED7E9962D39E93 /* FirebaseCore */,
+				059718E22B520A76B9E6E9490E20791C /* FirebaseDatabase */,
+				8F74D2B927DE654F1ACC4349AE7F8F70 /* FirebaseInstanceID */,
+				360A83ED5FA74135F662DAB995E4117A /* FirebaseStorage */,
+				97D06F3BD65CA499DCA6DBDD4F65F0AD /* GoogleToolboxForMac */,
+				F95795B28E75F334746BB540287C0878 /* GTMSessionFetcher */,
+				223141F4F12722B50C35C290FE0B2A0C /* RandomKit */,
+				DEE7F3C272A930D6991065A27D03E921 /* ShiftOperations */,
+				1A6616D35C9F29B2CC5D479B96D6C8D9 /* XLForm */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E52C5F7FAF3672704B1BBD92EAE6A9C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				644BA033AC3DCC02032A9C49D261C4CB /* GoogleToolboxForMac.modulemap */,
+				B2A64FBA5C368A2F35DBB84F1F66D9AE /* GoogleToolboxForMac.xcconfig */,
+				C4CA9AFAFF00F6E5C63D1FEB14BACB00 /* GoogleToolboxForMac-dummy.m */,
+				7EFD2893B179733705A152FF04333ED4 /* GoogleToolboxForMac-prefix.pch */,
+				C61528C001DFA7531ED9A2AA6852D4BB /* GoogleToolboxForMac-umbrella.h */,
+				081244D2A3584E1A2C52C542C4FE7797 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		ED9796E2C5D4A34FFEC8591E5C26FAF5 /* NSDictionary+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				DA209CCBFB23C4F043B74F9AA2F670DB /* GTMNSDictionary+URLArguments.h */,
+				529F39E3D31E169485EC62950CFEFCB3 /* GTMNSDictionary+URLArguments.m */,
+			);
+			name = "NSDictionary+URLArguments";
+			sourceTree = "<group>";
+		};
+		F95795B28E75F334746BB540287C0878 /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				B01B2CF817EDF4DDB5C92E704A4D6CD5 /* Core */,
+				3B0615E96F20E2BC6F007005C6013C34 /* Support Files */,
+			);
+			name = GTMSessionFetcher;
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16E3D943ABA1AB3F6DB0C6EC3452F9E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AAEBF9C5C9DF7E0CFB97065244FB54 /* RandomKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23143E4B3D9627BD069CDFB8A960B079 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F714DB25548E541BF8F91DABA2EC982B /* ShiftOperations-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C3C3BB2B21E3AD8F27252F1EEC5DF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7062C12643B403CCDB1A2D697D769A19 /* NSArray+XLFormAdditions.h in Headers */,
+				3F0EAB179CB118438737D8A405D18D90 /* NSExpression+XLFormAdditions.h in Headers */,
+				FF22F20038ADC5E60A1141BC97240377 /* NSObject+XLFormAdditions.h in Headers */,
+				50B45C9E759CB8CE4958397A786E05A1 /* NSPredicate+XLFormAdditions.h in Headers */,
+				B9CD12F3971D57F2CE00A12B9BFA1C7C /* NSString+XLFormAdditions.h in Headers */,
+				67FB07333B68221426FFD4927711C0A7 /* UIView+XLFormAdditions.h in Headers */,
+				1FB35ED884C487026FD04CD9F8762D63 /* XLForm-umbrella.h in Headers */,
+				14A1C9156506878AF8F5D0EB7600A2F2 /* XLForm.h in Headers */,
+				002E27CD887A164EE820397EF0F19DFD /* XLFormBaseCell.h in Headers */,
+				E77AEFF5C447BDBFA82B808041220DCC /* XLFormButtonCell.h in Headers */,
+				AF0E98D8D34F0DC27D0A5B3B2BAB7221 /* XLFormCheckCell.h in Headers */,
+				1C32E19FB611C8EE8C30C95BFDEF4EC9 /* XLFormDateCell.h in Headers */,
+				6898B1B8FA0F922098117B373C2130CF /* XLFormDatePickerCell.h in Headers */,
+				8BEB40901FA563A37FF981C06CEDB73A /* XLFormDescriptor.h in Headers */,
+				8A11DC6CC7A56909B35F4D76CC3EAD4E /* XLFormDescriptorCell.h in Headers */,
+				E88A880A663BA2166F9E3E4DC0829BCB /* XLFormDescriptorDelegate.h in Headers */,
+				789CA66BD195E56742F0B64C415917F3 /* XLFormImageCell.h in Headers */,
+				C777E34432773FC4747DC9AE5A00DE5D /* XLFormInlineRowDescriptorCell.h in Headers */,
+				B935C5BBF49D0B47BD7E147B4E860C75 /* XLFormInlineSelectorCell.h in Headers */,
+				E96302C7C59AE88B559495EB40AAB228 /* XLFormLeftRightSelectorCell.h in Headers */,
+				65C95A06FCC548E80F4A75EA4CA00497 /* XLFormOptionsObject.h in Headers */,
+				10828FF37D5E01A73CDB1F556F83C615 /* XLFormOptionsViewController.h in Headers */,
+				0EA495E2845069EBABF86231BFC8D080 /* XLFormPickerCell.h in Headers */,
+				4E392D98DFDC0ACA1FBF0EDFC42A2802 /* XLFormRegexValidator.h in Headers */,
+				65FF277064BF63DEBD5302F646C8F2E6 /* XLFormRightDetailCell.h in Headers */,
+				4FF5739FF6F1C479FADC63768C5D7BAB /* XLFormRightImageButton.h in Headers */,
+				4B3E6A559FFECD690A9BEE82398F9FAD /* XLFormRowDescriptor.h in Headers */,
+				AD10B8B330371AF8E045CF41ABECA50C /* XLFormRowDescriptorViewController.h in Headers */,
+				0A04789E76033AB7ABA1CA75B82D82D8 /* XLFormRowNavigationAccessoryView.h in Headers */,
+				4772F3CC0865B2C258E630EC4E1EEECE /* XLFormSectionDescriptor.h in Headers */,
+				21AF78108F9D6781CBB2EE042DAF4668 /* XLFormSegmentedCell.h in Headers */,
+				76ADB83D4C5A83BB61B5333487E9110F /* XLFormSelectorCell.h in Headers */,
+				E864DCC48E9F4228E5730C753E9DE84D /* XLFormSliderCell.h in Headers */,
+				877D07781B3582FC87FB71FE85A260FC /* XLFormStepCounterCell.h in Headers */,
+				13A068ED44E834F2410281B330620937 /* XLFormSwitchCell.h in Headers */,
+				A8CF895656C076C100E42A1588F58AAA /* XLFormTextFieldCell.h in Headers */,
+				292A6C19EDA389E214FC1560B479A9B7 /* XLFormTextView.h in Headers */,
+				8429C28120C685ECF409CFD69B34E81C /* XLFormTextViewCell.h in Headers */,
+				4C7202F38B0DC6011AC4A9A599CF9BA0 /* XLFormValidationStatus.h in Headers */,
+				E88C98A22F7AE5E3A83B573B33E2B3B1 /* XLFormValidator.h in Headers */,
+				5DE661E66A9A3DFE5852BBFE4DAC8387 /* XLFormValidatorProtocol.h in Headers */,
+				EF43988836852368F0F4AC2BB54264E4 /* XLFormViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D993B88C10479096F17ADDEAB85D94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */,
+				8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */,
+				1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */,
+				DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */,
+				F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0A1DF130E97C4755B09863D7F1AD5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */,
+				4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */,
+				D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */,
+				B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */,
+				C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */,
+				11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */,
+				DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4F8F7904CAF9A8E557BA467E87C077 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A067321CB0ACF7D5686E6A37AF2B4AD2 /* Pods-Profiles-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F707BAF342EEE9212F0B0F5C2364B06 /* XLForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387D9C6E49B4041FE2273F9B3E238030 /* Build configuration list for PBXNativeTarget "XLForm" */;
+			buildPhases = (
+				B13AFD4FB0AFE8D0CCF65A449B4828E8 /* Sources */,
+				20FE64F8AFF254CB2DF4AE81E552BF91 /* Frameworks */,
+				31C3C3BB2B21E3AD8F27252F1EEC5DF6 /* Headers */,
+				C7CA8EA589003CB4A93038ABEDF281F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLForm;
+			productName = XLForm;
+			productReference = 86EAABEDA1410830F34D6D6513E7CFA6 /* XLForm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3166596B665E06C4B76C8ABB6AB06824 /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				222F0DC2D2D238CAB82346DE258E5472 /* Sources */,
+				9DB2FD04E98E8D08B812CFAD3603A106 /* Frameworks */,
+				BB0A1DF130E97C4755B09863D7F1AD5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 87423BFEDD1D88355BD464B9F970C88A /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CD4B9F5F83985D60634B60865D4864C /* RandomKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8DDC4688F41366798612ACC24BB474 /* Build configuration list for PBXNativeTarget "RandomKit" */;
+			buildPhases = (
+				6BAEF692984ADD35055BF768E0C82BF7 /* Sources */,
+				C79D4A8F1D25D78B97BBC9F893128091 /* Frameworks */,
+				16E3D943ABA1AB3F6DB0C6EC3452F9E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68FA4A9925B4397340DE5B5ACBA5CAB /* PBXTargetDependency */,
+			);
+			name = RandomKit;
+			productName = RandomKit;
+			productReference = C31510C177FAF5C0CDFEB6BA79F3DFB2 /* RandomKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		704F6BD9C61E5757CB4F71D261E9E28D /* Pods-Profiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70755E49BF99EAC554D2650C011869C2 /* Build configuration list for PBXNativeTarget "Pods-Profiles" */;
+			buildPhases = (
+				0A9E006C39606100C09E4BEBAE82BA6E /* Sources */,
+				E699FACF8F57AEAFBE31A69A938637FD /* Frameworks */,
+				FF4F8F7904CAF9A8E557BA467E87C077 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB7D84DCF01230EDC7B761464B541EE /* PBXTargetDependency */,
+				FED1E1E8D6E3DA63286F56362552D11D /* PBXTargetDependency */,
+				1BDAFBB5B64308840826ABCC4328611A /* PBXTargetDependency */,
+				81FED4B345E728885931D7A4CCCB8E86 /* PBXTargetDependency */,
+				C9F7CEF6BAA372ACAB96F01192576646 /* PBXTargetDependency */,
+			);
+			name = "Pods-Profiles";
+			productName = "Pods-Profiles";
+			productReference = B8E4C0734EA72F21A76A2A93765873CF /* Pods_Profiles.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72B52F083CBB2BE3D28FAFF845454014 /* ShiftOperations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48A7DC4730D79456BBC3296C7A33A8C /* Build configuration list for PBXNativeTarget "ShiftOperations" */;
+			buildPhases = (
+				A4663D33A488CA1F051E0BD5811B1F86 /* Sources */,
+				6411F42E9983C974415AD31985D03BAE /* Frameworks */,
+				23143E4B3D9627BD069CDFB8A960B079 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiftOperations;
+			productName = ShiftOperations;
+			productReference = 21A3BC8A64762EFFB1C7D41340652139 /* ShiftOperations.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CC8559AB6F51830204F1A9CE54BF3E /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */;
+			buildPhases = (
+				C5A309EC5A80A27DBD420C5176E2122A /* Sources */,
+				6AE88E96161DE195EAAF0A3B6375EA50 /* Frameworks */,
+				82D993B88C10479096F17ADDEAB85D94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMSessionFetcher;
+			productName = GTMSessionFetcher;
+			productReference = 7872ED41619F2F2257D3BA5A944DF0EE /* GTMSessionFetcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5C8A3DE6336B823DABE11479229C729D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */,
+				C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */,
+				704F6BD9C61E5757CB4F71D261E9E28D /* Pods-Profiles */,
+				6CD4B9F5F83985D60634B60865D4864C /* RandomKit */,
+				72B52F083CBB2BE3D28FAFF845454014 /* ShiftOperations */,
+				0F707BAF342EEE9212F0B0F5C2364B06 /* XLForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CA8EA589003CB4A93038ABEDF281F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF651C7266CEBB24A16DF764B3D9FA38 /* XLForm.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9E006C39606100C09E4BEBAE82BA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974E50BAA932F3ADB737EB8C28B5C1C6 /* Pods-Profiles-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222F0DC2D2D238CAB82346DE258E5472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */,
+				2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */,
+				E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */,
+				5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAEF692984ADD35055BF768E0C82BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D6E9C5B9A10A447BF0630AA392F749 /* ARC4Random.swift in Sources */,
+				6C3A622EF09D42E11F22B26B92328EA8 /* Array+RandomKit.swift in Sources */,
+				FB884CFD0A58EC619CC4B930EF0C2365 /* Bool+RandomKit.swift in Sources */,
+				25EB711BCB73DC271324AEC45016C87C /* CGFloat+RandomKit.swift in Sources */,
+				80E449214B8064A74E89F3B4EA896FC0 /* CGPoint+RandomKit.swift in Sources */,
+				507A055C99AA51ED610C339842D2EB53 /* CGRect+RandomKit.swift in Sources */,
+				13DF4D98DB9F39A3A600DE13E9B449C1 /* CGSize+RandomKit.swift in Sources */,
+				FD6E82757A5C44A9C46CE03834274E7A /* CGVector+RandomKit.swift in Sources */,
+				9FC2A7108AE5F492FFB35EB529FAF5DA /* Character+RandomKit.swift in Sources */,
+				75A94BB0294DF253A78459B945F1E856 /* Collection+RandomKit.swift in Sources */,
+				A456D487C427117428D6650A56181E76 /* Color+RandomKit.swift in Sources */,
+				977F026C40E3921A9D7B444F5E545BA5 /* Date+RandomKit.swift in Sources */,
+				5080A5549F77B24F2E93A4E02B21E7C3 /* Decimal+RandomKit.swift in Sources */,
+				6518952B7F2142E3132C48A5D6C970F8 /* DeviceRandom.swift in Sources */,
+				5C4C26888180B61B68303375768EF2B6 /* Dictionary+RandomKit.swift in Sources */,
+				29D27FE90724E503F68C7C9A66C1FAE0 /* FloatingPoint+RandomKit.swift in Sources */,
+				27CE0BB90FF478FB65811E921223875C /* Integer+RandomKit.swift in Sources */,
+				E779B74C9AC78FBE9CC150B0F9198724 /* MersenneTwister.swift in Sources */,
+				E34E28C17E8B911982810F2AAD696D6D /* NSArray+RandomKit.swift in Sources */,
+				A3A54332EF7DB2E02B112D1D90BE298E /* NSNumber+RandomKit.swift in Sources */,
+				1AD51D6B4DF85BB565AD4BD8C23600EA /* Random.swift in Sources */,
+				00559B74816BD394E91A64FD39EAF9ED /* RandomBytesGenerator.swift in Sources */,
+				20F2E68B8B67F565506CD4C941DA6F88 /* RandomEnum.swift in Sources */,
+				F4F1FE892629D4702E574B68A915C398 /* RandomGenerator.swift in Sources */,
+				076CC8B675E95B1DF9B347EC2E4E8A55 /* RandomKit-dummy.m in Sources */,
+				49DC98F0A423F300DDB41380F9D84E53 /* RandomRawRepresentable.swift in Sources */,
+				D900C14F5AA5219E43AC726545B45A10 /* RandomThroughValue.swift in Sources */,
+				02DBD970DF9407DB6E241D8513C52176 /* RandomToValue.swift in Sources */,
+				6916122732AD73755E2B5C39881A86CC /* RandomTuple.swift in Sources */,
+				E05F6523BB90A875813657148BACA753 /* RandomWithAll.swift in Sources */,
+				981E031C60D992BA2BA3871DCFB2558F /* RandomWithExactWidth.swift in Sources */,
+				CBBC009BA56D2DAA0FDAFF32C86A011F /* RandomWithinClosedRange.swift in Sources */,
+				B0CA55D3CF6F98AB49FA6DC3AAA7DF80 /* RandomWithinRange.swift in Sources */,
+				8054EBCA3AB0C619D1AA8F3AAEDD12E1 /* RandomWithMax.swift in Sources */,
+				44549A686810461B11DF34899E159804 /* RandomWithMaxWidth.swift in Sources */,
+				2EE8294E262EBE82516398273DCED6AF /* RandomWithMin.swift in Sources */,
+				7002FEE9276F6D6CCE79E9FD753D42CF /* Range+RandomKit.swift in Sources */,
+				A0D683BC91C06A8328857F2235C547D3 /* ReseedingRandomGenerator.swift in Sources */,
+				2B645C8BF8718687F93EDB69D0E08768 /* SeedableRandomGenerator.swift in Sources */,
+				3A9C40C924701644636C85AD12CCF695 /* Sequence+RandomKit.swift in Sources */,
+				FF932278EE83518492335DB88AFA560C /* Set+RandomKit.swift in Sources */,
+				0433CB50B706B282DD1E1AE6DC18C26D /* Shuffleable.swift in Sources */,
+				29EAC1E6A75A025A88777B211904E7D9 /* StackArray.swift in Sources */,
+				EB20120FAF2284B8230A090FA307F202 /* Strideable+RandomKit.swift in Sources */,
+				6FC0F7E70B1846F693FE0978F5DEDFCF /* String+RandomKit.swift in Sources */,
+				48874879AA71B2085837E1A04C32F580 /* Trivial.swift in Sources */,
+				17D2B1A0141BDCE4CCBD035B0C67BD01 /* Typecasting.swift in Sources */,
+				56529C8BA6DCA10ECFB81D811CC71907 /* UnicodeScalar+RandomKit.swift in Sources */,
+				437676F695A7634FDC44E0882FB08314 /* UniqueShuffleable.swift in Sources */,
+				8A222948B037C1E750C9B34298EBE9A8 /* UnsafeRandom.swift in Sources */,
+				38F3E69E1C827864FB2B9644BC5730EB /* Xoroshiro.swift in Sources */,
+				841AE32464F4424EEA7E1456D3DB7D7F /* Xorshift.swift in Sources */,
+				550E488102476FBD3DB8CF9B8C172A3C /* XorshiftStar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4663D33A488CA1F051E0BD5811B1F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC836C812B67AAD0FCC464F1AB0648F3 /* ShiftOperations-dummy.m in Sources */,
+				1915707A3047A5005761C7FF87F646A9 /* ShiftOperations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13AFD4FB0AFE8D0CCF65A449B4828E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717487755CB7BC6788ECA9E6E6CDE766 /* NSArray+XLFormAdditions.m in Sources */,
+				3FD542206C5CF788E703A28E4C977BE0 /* NSExpression+XLFormAdditions.m in Sources */,
+				91DF7A100DFEAF9A28686EAE814B9147 /* NSObject+XLFormAdditions.m in Sources */,
+				57179F1C06DD52920400BA3E84C42BE1 /* NSPredicate+XLFormAdditions.m in Sources */,
+				DC95C5485CA7D3DDD8DACA64D70019D7 /* NSString+XLFormAdditions.m in Sources */,
+				FA37E40D20F69FDC6212CEE53F67DA4D /* UIView+XLFormAdditions.m in Sources */,
+				2FD23E0D2271826F6555A331A71277D0 /* XLForm-dummy.m in Sources */,
+				6FAF783E60D2CADF6E04F4DBCAFF5923 /* XLForm.m in Sources */,
+				C4C363811B07803E93047AC17C6D0A1D /* XLFormBaseCell.m in Sources */,
+				5CC4C800B120B1C036875C38B8F1A9B5 /* XLFormButtonCell.m in Sources */,
+				BD20745628C49A4F424EECA805C37F5E /* XLFormCheckCell.m in Sources */,
+				D1B153597152D25F585B8DB5DF7434E4 /* XLFormDateCell.m in Sources */,
+				A776D74C2422B87AC36884B4DE0DD27E /* XLFormDatePickerCell.m in Sources */,
+				83D2E8ADEA89D2A72E7B7FAA9506D09E /* XLFormDescriptor.m in Sources */,
+				C4EFD659021B3DD959AF258AC469D275 /* XLFormImageCell.m in Sources */,
+				59D01A9A570645801161510F6B8F63CD /* XLFormInlineSelectorCell.m in Sources */,
+				DDB06F0A87CC6C56BE580422226C476C /* XLFormLeftRightSelectorCell.m in Sources */,
+				AF5AED1EF444DC574E83614EF4343391 /* XLFormOptionsObject.m in Sources */,
+				E11B51ABB9237CA738B1444D68DCE988 /* XLFormOptionsViewController.m in Sources */,
+				FD272BBFAAA04AC8EB754D2501A3E062 /* XLFormPickerCell.m in Sources */,
+				8B7EB12B8C824140703D02F4A2F0E7F9 /* XLFormRegexValidator.m in Sources */,
+				DE8E28A50C94449C5CD363D3788B8EDE /* XLFormRightDetailCell.m in Sources */,
+				D562253716A1274F44485EFA4F751D46 /* XLFormRightImageButton.m in Sources */,
+				3384B1540CB9F87FE3F0C3718021E257 /* XLFormRowDescriptor.m in Sources */,
+				272F6BFCFECD7CA1DBCB26C0BDBCAA41 /* XLFormRowNavigationAccessoryView.m in Sources */,
+				B1CA46DA95ADB17DA26208E724B80EB1 /* XLFormSectionDescriptor.m in Sources */,
+				5D0594D9E06E40F4F2E8F5B2AB445E04 /* XLFormSegmentedCell.m in Sources */,
+				C97B36163B6A1D38495858409B19CC37 /* XLFormSelectorCell.m in Sources */,
+				17453913468FD014582C83B78626DD4C /* XLFormSliderCell.m in Sources */,
+				0FC4A5DA972299C58CF33C3086288059 /* XLFormStepCounterCell.m in Sources */,
+				9B9808A684D91C50EA8446EBED238074 /* XLFormSwitchCell.m in Sources */,
+				D4B2C8DA986F8296BB825AE02551613B /* XLFormTextFieldCell.m in Sources */,
+				0226350071C351EC3AECDE9C53851E67 /* XLFormTextView.m in Sources */,
+				8283DA26E4B049EB11D13CC9A588775A /* XLFormTextViewCell.m in Sources */,
+				4FC2AFA21424277F8C2F760A79D2C040 /* XLFormValidationStatus.m in Sources */,
+				4C873D4E232C648B39DF257999064D75 /* XLFormValidator.m in Sources */,
+				A8E36A1C0EB66F7F4B540ECE0D4C366B /* XLFormViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A309EC5A80A27DBD420C5176E2122A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */,
+				64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */,
+				07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */,
+				95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */,
+				F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BDAFBB5B64308840826ABCC4328611A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RandomKit;
+			target = 6CD4B9F5F83985D60634B60865D4864C /* RandomKit */;
+			targetProxy = 8AC4C9342D620BB1F2634B0FB9DC4C30 /* PBXContainerItemProxy */;
+		};
+		81FED4B345E728885931D7A4CCCB8E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShiftOperations;
+			target = 72B52F083CBB2BE3D28FAFF845454014 /* ShiftOperations */;
+			targetProxy = 899CB48DB10EFEFFA79CB68B79AC7F53 /* PBXContainerItemProxy */;
+		};
+		AFB7D84DCF01230EDC7B761464B541EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */;
+			targetProxy = FFB4089D16CB95F1CE94E91866354E7B /* PBXContainerItemProxy */;
+		};
+		C9F7CEF6BAA372ACAB96F01192576646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLForm;
+			target = 0F707BAF342EEE9212F0B0F5C2364B06 /* XLForm */;
+			targetProxy = 0DB779740F7249704B2293D904820DB1 /* PBXContainerItemProxy */;
+		};
+		F68FA4A9925B4397340DE5B5ACBA5CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShiftOperations;
+			target = 72B52F083CBB2BE3D28FAFF845454014 /* ShiftOperations */;
+			targetProxy = 76A4F9314635226F3A0F180C517B90BF /* PBXContainerItemProxy */;
+		};
+		FED1E1E8D6E3DA63286F56362552D11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */;
+			targetProxy = 511FEBE92BFE9870CA3758D27448A479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		258CA5B4371889C2CAE075EC69223734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458F6898AA211D940B2BB8C2B0E63836 /* Pods-Profiles.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Profiles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Profiles/Pods-Profiles.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Profiles;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AF861AEADA89A377F12178D493BED95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A64FBA5C368A2F35DBB84F1F66D9AE /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E2287D9D3E0AD0F8BF39E8CABFC91F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7907464B0F65E5913D5E79B16EF2C9B /* XLForm.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLForm/XLForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLForm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLForm/XLForm.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		432E36D258799C8F74E6029EA1B5F7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F76121115AEA694CD24668A83A217D4 /* RandomKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RandomKit/RandomKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RandomKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RandomKit/RandomKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RandomKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52499F7DF164AF5D220B4E08148A5046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7907464B0F65E5913D5E79B16EF2C9B /* XLForm.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLForm/XLForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLForm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLForm/XLForm.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XLForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70335BA6C7E636C11F4BA4A0E374B1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D2A294FDCD8B4E9F3E2D50271E1D41 /* Pods-Profiles.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Profiles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Profiles/Pods-Profiles.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Profiles;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		881B19BB9961D509DACE94450066151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A64FBA5C368A2F35DBB84F1F66D9AE /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3380819078ED1860FCF5F87DE35D535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1B016DD3A8FE7CEDEA8AB36459DA90 /* ShiftOperations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShiftOperations/ShiftOperations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShiftOperations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShiftOperations/ShiftOperations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ShiftOperations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9C7324D0ADEABED7BC7B2D9C608C5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6A3358A3AB220DF0C63FBA21F1070C /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA17372920AD7C64E6D2789FE3571277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F76121115AEA694CD24668A83A217D4 /* RandomKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RandomKit/RandomKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RandomKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RandomKit/RandomKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RandomKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CAFEB173E8130BA0486773721C8375EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1B016DD3A8FE7CEDEA8AB36459DA90 /* ShiftOperations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShiftOperations/ShiftOperations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShiftOperations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShiftOperations/ShiftOperations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ShiftOperations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED969C86CBBA712335D5E741625E75B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6A3358A3AB220DF0C63FBA21F1070C /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3166596B665E06C4B76C8ABB6AB06824 /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF861AEADA89A377F12178D493BED95 /* Debug */,
+				881B19BB9961D509DACE94450066151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387D9C6E49B4041FE2273F9B3E238030 /* Build configuration list for PBXNativeTarget "XLForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52499F7DF164AF5D220B4E08148A5046 /* Debug */,
+				3E2287D9D3E0AD0F8BF39E8CABFC91F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70755E49BF99EAC554D2650C011869C2 /* Build configuration list for PBXNativeTarget "Pods-Profiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70335BA6C7E636C11F4BA4A0E374B1F9 /* Debug */,
+				258CA5B4371889C2CAE075EC69223734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48A7DC4730D79456BBC3296C7A33A8C /* Build configuration list for PBXNativeTarget "ShiftOperations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFEB173E8130BA0486773721C8375EE /* Debug */,
+				B3380819078ED1860FCF5F87DE35D535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7CC8559AB6F51830204F1A9CE54BF3E /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C7324D0ADEABED7BC7B2D9C608C5E0 /* Debug */,
+				ED969C86CBBA712335D5E741625E75B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8DDC4688F41366798612ACC24BB474 /* Build configuration list for PBXNativeTarget "RandomKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432E36D258799C8F74E6029EA1B5F7A2 /* Debug */,
+				BA17372920AD7C64E6D2789FE3571277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

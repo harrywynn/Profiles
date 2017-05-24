@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>390727205534-b83eb9hdaaqi0bq6midj2j8nu60s0mvl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.390727205534-b83eb9hdaaqi0bq6midj2j8nu60s0mvl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRs3EihXV6IhDYXymwaKEy5GjJuFvWRTA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>390727205534</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.harrywynn.Passport-Challenge</string>
+	<key>PROJECT_ID</key>
+	<string>passport-challenge-abc97</string>
+	<key>STORAGE_BUCKET</key>
+	<string>passport-challenge-abc97.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:390727205534:ios:f038942e3d039aad</string>
+	<key>DATABASE_URL</key>
+	<string>https://passport-challenge-abc97.firebaseio.com</string>
+</dict>
+</plist>
